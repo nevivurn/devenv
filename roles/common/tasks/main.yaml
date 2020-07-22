@@ -1,0 +1,13 @@
+---
+- name: 'Ensure devenv directory'
+  file:
+    path: '{{ devenv_root }}'
+    state: 'directory'
+- name: 'Ensure devenv envdir'
+  file:
+    path: '{{ devenv_root }}/envs'
+    state: 'directory'
+- name: 'Ensure devenv envfile'
+  template:
+    src: 'env.sh.j2'
+    dest: '{{ devenv_root }}/activate'

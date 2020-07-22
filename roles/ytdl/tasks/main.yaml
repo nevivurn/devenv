@@ -1,0 +1,24 @@
+---
+- name: 'Ensure ytdl directory'
+  file:
+    path: '{{ devenv_root }}/ytdl'
+    state: 'directory'
+- name: 'Ensure ytdl current directory'
+  file:
+    path: '{{ devenv_root }}/ytdl/current'
+    state: 'directory'
+- name: 'Download ytdl'
+  get_url:
+    url: 'https://github.com/ytdl-org/youtube-dl/releases/download/{{ devenv_ytdl_version }}/youtube-dl'
+    dest: '{{ devenv_root }}/ytdl/ytdl_{{ devenv_ytdl_version }}'
+    checksum: 'sha256:{{ devenv_ytdl_hash[devenv_ytdl_version] }}'
+    mode: 0755
+- name: 'Ensure ytdl envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_ytdl.sh'
+- name: 'Update current ytdl'
+  file:
+    src: '../ytdl_{{ devenv_ytdl_version }}'
+    path: '{{ devenv_root }}/ytdl/current/youtube-dl'
+    state: 'link'

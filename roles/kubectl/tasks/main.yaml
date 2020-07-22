@@ -1,0 +1,24 @@
+---
+- name: 'Ensure kubectl directory'
+  file:
+    path: '{{ devenv_root }}/kubectl'
+    state: 'directory'
+- name: 'Ensure kubectl current directory'
+  file:
+    path: '{{ devenv_root }}/kubectl/current'
+    state: 'directory'
+- name: 'Download kubectl'
+  get_url:
+    url: 'https://storage.googleapis.com/kubernetes-release/release/v{{ devenv_kubectl_version }}/bin/linux/amd64/kubectl'
+    dest: '{{ devenv_root }}/kubectl/kubectl_{{ devenv_kubectl_version }}'
+    checksum: 'sha256:{{ devenv_kubectl_hash[devenv_kubectl_version] }}'
+    mode: 0755
+- name: 'Ensure kubectl envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_kubectl.sh'
+- name: 'Update current kubectl'
+  file:
+    src: '../kubectl_{{ devenv_kubectl_version }}'
+    path: '{{ devenv_root }}/kubectl/current/kubectl'
+    state: 'link'

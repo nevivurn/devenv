@@ -1,0 +1,54 @@
+# TODO: automatically generate this file
+---
+devenv_awscli_version: '2.0.33'
+devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.33.zip.sig
+  '2.0.33': '2e0471c391ce68bb25c5a0b1d820225d0d3c04562695a2ca6bce7e7e5fedccd5'
+
+devenv_docker_compose_version: '1.26.2'
+devenv_docker_compose_hash:
+  # hash: https://github.com/docker/compose/releases/download/1.26.2/docker-compose-Linux-x86_64.sha256
+  '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
+
+devenv_gcloud_version: '302.0.0'
+devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
+
+devenv_golang_version: '1.14.6'
+devenv_golang_hash:
+  # hash: https://golang.org/dl/
+  '1.14.6': '5c566ddc2e0bcfc25c26a5dc44a440fcc0177f7350c1f01952b34d5989a0d287'
+
+devenv_hugo_version: '0.74.2'
+devenv_hugo_hash:
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_0.74.2_checksums.txt
+  '0.74.2': '3d776cb197e77da065b7a3fa91785733895c460ae571576f289978f43a2949f8'
+
+devenv_kubectl_version: '1.18.6'
+devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.6/bin/linux/amd64/kubectl.sha256
+  '1.18.6': '62fcb9922164725c7cba5747562f2ad2f4d834ad0a458c1e4c794cc203dcdfb3'
+
+devenv_nodejs_version: '12.18.2'
+devenv_nodejs_hash:
+  # hash & sig (hash): https://nodejs.org/dist/v12.18.2/SHASUMS256.txt.asc
+  '12.18.2': 'b8dc634798ee783482c2ae1755bd7dff09d83fa7bb037cdc370b601d0a5e5cbb'
+
+devenv_packer_version: '1.6.0'
+devenv_packer_hash:
+  # hash: https://releases.hashicorp.com/packer/1.6.0/packer_1.6.0_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.6.0/packer_1.6.0_SHA256SUMS.sig
+  '1.6.0': 'a678c995cb8dc232db3353881723793da5acc15857a807d96c52e96e671309d9'
+
+devenv_terraform_version: '0.12.28'
+devenv_terraform_hash:
+  # hash: https://releases.hashicorp.com/terraform/0.12.28/terraform_0.12.28_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.12.28/terraform_0.12.28_SHA256SUMS.sig
+  '0.12.28': 'be99da1439a60942b8d23f63eba1ea05ff42160744116e84f46fc24f1a8011b6'
+
+devenv_ytdl_version: '2020.06.16.1'
+devenv_ytdl_hash:
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.16.1/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.16.1/youtube-dl.sig
+  '2020.06.16.1': '3062fcc8e511cec6ebbf58c87894bb64273d4668cc584439e4c722b76ff0c9eb'

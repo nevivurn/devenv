@@ -1,0 +1,17 @@
+---
+- hosts: 'localhost'
+  become: false
+  vars_files:
+    - 'vars.yaml'
+    - 'hashes.yaml'
+  roles:
+    - 'awscli'
+    - 'docker-compose'
+    - 'gcloud'
+    - 'golang'
+    - 'hugo'
+    - 'kubectl'
+    - 'nodejs'
+    - 'packer'
+    - 'terraform'
+    - 'ytdl'

@@ -1,0 +1,31 @@
+---
+- name: 'Ensure hugo directory'
+  file:
+    path: '{{ devenv_root }}/hugo'
+    state: 'directory'
+- name: 'Ensure hugo current directory'
+  file:
+    path: '{{ devenv_root }}/hugo/current'
+    state: 'directory'
+- name: 'Ensure hugo version directory'
+  file:
+    path: '{{ devenv_root }}/hugo/{{ devenv_hugo_version }}'
+    state: 'directory'
+- name: 'Download hugo'
+  get_url:
+    url: 'https://github.com/gohugoio/hugo/releases/download/v{{ devenv_hugo_version }}/hugo_{{ devenv_hugo_version }}_Linux-64bit.tar.gz'
+    dest: '{{ devenv_root }}/hugo/{{ devenv_hugo_version }}_download.tar.gz'
+    checksum: 'sha256:{{ devenv_hugo_hash[devenv_hugo_version] }}'
+- name: 'Unpack hugo'
+  unarchive:
+    src: '{{ devenv_root }}/hugo/{{ devenv_hugo_version }}_download.tar.gz'
+    dest: '{{ devenv_root }}/hugo/{{ devenv_hugo_version }}'
+- name: 'Ensure hugo envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_hugo.sh'
+- name: 'Update current hugo'
+  file:
+    src: '../{{ devenv_hugo_version }}/hugo'
+    path: '{{ devenv_root }}/hugo/current/hugo'
+    state: 'link'

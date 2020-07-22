@@ -1,0 +1,32 @@
+---
+- name: 'Ensure golang directory'
+  file:
+    path: '{{ devenv_root }}/golang'
+    state: 'directory'
+- name: 'Ensure gopath directory'
+  file:
+    path: '{{ devenv_root }}/golang/gopath'
+    state: 'directory'
+- name: 'Ensure golang version directory'
+  file:
+    path: '{{ devenv_root }}/golang/{{ devenv_golang_version }}'
+    state: 'directory'
+- name: 'Download go'
+  get_url:
+    url: 'https://golang.org/dl/go{{ devenv_golang_version }}.linux-amd64.tar.gz'
+    dest: '{{ devenv_root }}/golang/{{ devenv_golang_version }}_download.tar.gz'
+    checksum: 'sha256:{{ devenv_golang_hash[devenv_golang_version] }}'
+- name: 'Unpack go'
+  unarchive:
+    src: '{{ devenv_root }}/golang/{{ devenv_golang_version }}_download.tar.gz'
+    dest: '{{ devenv_root }}/golang/{{ devenv_golang_version }}'
+    extra_opts: ['--strip-components', '1']
+- name: 'Ensure golang envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_golang.sh'
+- name: 'Update current golang'
+  file:
+    src: '{{ devenv_golang_version }}'
+    path: '{{ devenv_root }}/golang/current'
+    state: 'link'

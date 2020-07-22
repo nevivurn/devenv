@@ -1,0 +1,24 @@
+---
+- name: 'Ensure docker-compose directory'
+  file:
+    path: '{{ devenv_root }}/docker-compose'
+    state: 'directory'
+- name: 'Ensure docker-compose current directory'
+  file:
+    path: '{{ devenv_root }}/docker-compose/current'
+    state: 'directory'
+- name: 'Download docker-compose'
+  get_url:
+    url: 'https://github.com/docker/compose/releases/download/{{ devenv_docker_compose_version }}/docker-compose-Linux-x86_64'
+    dest: '{{ devenv_root }}/docker-compose/docker-compose_{{ devenv_docker_compose_version }}'
+    checksum: 'sha256:{{ devenv_docker_compose_hash[devenv_docker_compose_version] }}'
+    mode: 0755
+- name: 'Ensure docker-compose envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_docker-compose.sh'
+- name: 'Update current docker-compose'
+  file:
+    src: '../docker-compose_{{ devenv_docker_compose_version }}'
+    path: '{{ devenv_root }}/docker-compose/current/docker-compose'
+    state: 'link'

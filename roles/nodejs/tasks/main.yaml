@@ -1,0 +1,28 @@
+---
+- name: 'Ensure nodejs directory'
+  file:
+    path: '{{ devenv_root }}/nodejs'
+    state: 'directory'
+- name: 'Ensure nodejs version directory'
+  file:
+    path: '{{ devenv_root }}/nodejs/{{ devenv_nodejs_version }}'
+    state: 'directory'
+- name: 'Download nodejs'
+  get_url:
+    url: 'https://nodejs.org/dist/v{{ devenv_nodejs_version }}/node-v{{ devenv_nodejs_version }}-linux-x64.tar.xz'
+    dest: '{{ devenv_root }}/nodejs/{{ devenv_nodejs_version }}_download.tar.xz'
+    checksum: 'sha256:{{ devenv_nodejs_hash[devenv_nodejs_version] }}'
+- name: 'Unpack nodejs'
+  unarchive:
+    src: '{{ devenv_root }}/nodejs/{{ devenv_nodejs_version }}_download.tar.xz'
+    dest: '{{ devenv_root }}/nodejs/{{ devenv_nodejs_version }}'
+    extra_opts: ['--strip-components', '1']
+- name: 'Ensure nodejs envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_nodejs.sh'
+- name: 'Update current nodejs'
+  file:
+    src: '{{ devenv_nodejs_version }}'
+    path: '{{ devenv_root }}/nodejs/current'
+    state: 'link'

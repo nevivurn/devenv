@@ -1,0 +1,27 @@
+---
+- name: 'Ensure terraform directory'
+  file:
+    path: '{{ devenv_root }}/terraform'
+    state: 'directory'
+- name: 'Ensure terraform version directory'
+  file:
+    path: '{{ devenv_root }}/terraform/{{ devenv_terraform_version }}'
+    state: 'directory'
+- name: 'Download terraform'
+  get_url:
+    url: 'https://releases.hashicorp.com/terraform/{{ devenv_terraform_version }}/terraform_{{ devenv_terraform_version }}_linux_amd64.zip'
+    dest: '{{ devenv_root }}/terraform/{{ devenv_terraform_version }}_download.zip'
+    checksum: 'sha256:{{ devenv_terraform_hash[devenv_terraform_version] }}'
+- name: 'Unpack terraform'
+  unarchive:
+    src: '{{ devenv_root }}/terraform/{{ devenv_terraform_version }}_download.zip'
+    dest: '{{ devenv_root }}/terraform/{{ devenv_terraform_version }}'
+- name: 'Ensure terraform envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_terraform.sh'
+- name: 'Update current terraform'
+  file:
+    src: '{{ devenv_terraform_version }}'
+    path: '{{ devenv_root }}/terraform/current'
+    state: 'link'
