@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DEVENV_AWSCLI_BIN="${DEVENV_ROOT}/awscli/bin"
+DEVENV_AWSCLI_BIN="${DEVENV_ROOT}/awscli/current"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
 	echo "[devenv/awscli] awscli version: $("${DEVENV_AWSCLI_BIN}/aws" --version)"

@@ -3,9 +3,9 @@
   file:
     path: '{{ devenv_root }}/awscli'
     state: 'directory'
-- name: 'Ensure awscli bin directory'
+- name: 'Ensure awscli current directory'
   file:
-    path: '{{ devenv_root }}/awscli/bin'
+    path: '{{ devenv_root }}/awscli/current'
     state: 'directory'
 - name: 'Ensure awscli version directory'
   file:
@@ -24,18 +24,13 @@
   copy:
     src: 'env.sh'
     dest: '{{ devenv_root }}/envs/01_awscli.sh'
-- name: 'Update current awscli'
-  file:
-    src: '{{ devenv_awscli_version }}/aws/dist'
-    path: '{{ devenv_root }}/awscli/current'
-    state: 'link'
 - name: 'Ensure awscli executable aws'
   file:
-    src: '../current/aws'
-    path: '{{ devenv_root }}/awscli/bin/aws'
+    src: '../{{ devenv_awscli_version }}/aws/dist/aws'
+    path: '{{ devenv_root }}/awscli/current/aws'
     state: 'link'
 - name: 'Ensure awscli executable aws_completer'
   file:
-    src: '../current/aws_completer'
-    path: '{{ devenv_root }}/awscli/bin/aws_completer'
+    src: '../{{ devenv_awscli_version }}/aws/dist/aws_completer'
+    path: '{{ devenv_root }}/awscli/current/aws_completer'
     state: 'link'
