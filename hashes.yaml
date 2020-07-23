@@ -30,6 +30,12 @@ devenv_hugo_hash:
   # hash: https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_0.74.2_checksums.txt
   '0.74.2': '3d776cb197e77da065b7a3fa91785733895c460ae571576f289978f43a2949f8'
 
+# https://github.com/kubernetes-sigs/kind/releases
+devenv_kind_version: '0.8.1'
+devenv_kind_hash:
+  # hash: manual
+  '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
+
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
 devenv_kubectl_version: '1.18.6'
 devenv_kubectl_hash:

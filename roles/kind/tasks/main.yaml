@@ -1,0 +1,24 @@
+---
+- name: 'Ensure kind directory'
+  file:
+    path: '{{ devenv_root }}/kind'
+    state: 'directory'
+- name: 'Ensure kind current directory'
+  file:
+    path: '{{ devenv_root }}/kind/current'
+    state: 'directory'
+- name: 'Download kind'
+  get_url:
+    url: 'https://github.com/kubernetes-sigs/kind/releases/download/v{{ devenv_kind_version }}/kind-linux-amd64'
+    dest: '{{ devenv_root }}/kind/kind_{{ devenv_kind_version }}'
+    checksum: 'sha256:{{ devenv_kind_hash[devenv_kind_version] }}'
+    mode: 0755
+- name: 'Ensure kind envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_kind.sh'
+- name: 'Update current kind'
+  file:
+    src: '../kind_{{ devenv_kind_version }}'
+    path: '{{ devenv_root }}/kind/current/kind'
+    state: 'link'
