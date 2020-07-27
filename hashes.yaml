@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.33'
+devenv_awscli_version: '2.0.34'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.34.zip.sig
+  '2.0.34': '81716e3ed7748b7dd821c67ea840501784b4aa46a3f03b4366bd90dd082f626b'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.33.zip.sig
   '2.0.33': '2e0471c391ce68bb25c5a0b1d820225d0d3c04562695a2ca6bce7e7e5fedccd5'
 
@@ -25,8 +27,10 @@ devenv_golang_hash:
   '1.14.6': '5c566ddc2e0bcfc25c26a5dc44a440fcc0177f7350c1f01952b34d5989a0d287'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.74.2'
+devenv_hugo_version: '0.74.3'
 devenv_hugo_hash:
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_checksums.txt
+  '0.74.3': '269482fff497051a7919da213efa29c7f59c000e51cf14c1d207ecf98d87bf33'
   # hash: https://github.com/gohugoio/hugo/releases/download/v0.74.2/hugo_0.74.2_checksums.txt
   '0.74.2': '3d776cb197e77da065b7a3fa91785733895c460ae571576f289978f43a2949f8'
 
