@@ -15,8 +15,10 @@ devenv_docker_compose_hash:
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '302.0.0'
+devenv_gcloud_version: '303.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '303.0.0': '05e22e4308fa68e7270e071a4bd783d4ade3c6911db62520f3991b46ec70a25c'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
 
