@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.34'
+devenv_awscli_version: '2.0.36'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.36.zip.sig
+  '2.0.36': 'b8248b059194b1644afcae8bc8639faa456b34490a6fd05034f25d33f047ba09'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.34.zip.sig
   '2.0.34': '81716e3ed7748b7dd821c67ea840501784b4aa46a3f03b4366bd90dd082f626b'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.33.zip.sig
@@ -57,8 +59,11 @@ devenv_nodejs_hash:
   '12.18.2': 'b8dc634798ee783482c2ae1755bd7dff09d83fa7bb037cdc370b601d0a5e5cbb'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.6.0'
+devenv_packer_version: '1.6.1'
 devenv_packer_hash:
+  # hash: https://releases.hashicorp.com/packer/1.6.1/packer_1.6.1_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.6.1/packer_1.6.1_SHA256SUMS.sig
+  '1.6.1': '8dcf97610e8c3907c23e25201dce20b498e1939e89878dec01de6975733c7729'
   # hash: https://releases.hashicorp.com/packer/1.6.0/packer_1.6.0_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/packer/1.6.0/packer_1.6.0_SHA256SUMS.sig
   '1.6.0': 'a678c995cb8dc232db3353881723793da5acc15857a807d96c52e96e671309d9'
@@ -74,8 +79,11 @@ devenv_terraform_hash:
   '0.12.28': 'be99da1439a60942b8d23f63eba1ea05ff42160744116e84f46fc24f1a8011b6'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.06.16.1'
+devenv_ytdl_version: '2020.07.28'
 devenv_ytdl_hash:
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.07.28/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.07.28/youtube-dl.sig
+  '2020.07.28': '5af3e544ecef3232ab6fdc26905ad56771ec3543c150d1940294dfab92a463cb'
   # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.16.1/SHA2-256SUMS
   # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.06.16.1/youtube-dl.sig
   '2020.06.16.1': '3062fcc8e511cec6ebbf58c87894bb64273d4668cc584439e4c722b76ff0c9eb'
