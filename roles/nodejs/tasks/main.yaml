@@ -3,6 +3,10 @@
   file:
     path: '{{ devenv_root }}/nodejs'
     state: 'directory'
+- name: 'Ensure nodepath directory'
+  file:
+    path: '{{ devenv_root }}/nodejs/nodepath'
+    state: 'directory'
 - name: 'Ensure nodejs version directory'
   file:
     path: '{{ devenv_root }}/nodejs/{{ devenv_nodejs_version }}'
@@ -26,3 +30,9 @@
     src: '{{ devenv_nodejs_version }}'
     path: '{{ devenv_root }}/nodejs/current'
     state: 'link'
+- name: 'Set npmrc prefix'
+  lineinfile:
+    path: '{{ ansible_user_dir }}/.npmrc'
+    line: 'prefix={{ devenv_root }}/nodejs/nodepath'
+    regexp: '^prefix='
+    create: true
