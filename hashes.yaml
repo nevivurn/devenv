@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.37'
+devenv_awscli_version: '2.0.38'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.38.zip.sig
+  '2.0.38': 'ae95c0949c1e66d175923f5cf801337a777c90cffb38048171d5d468bebc4354'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.37.zip.sig
   '2.0.37': 'b492870eadb4daf545977e82c584a0c30c482437a46486a0c4a625491a5db839'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.36.zip.sig
@@ -29,8 +31,10 @@ devenv_gcloud_hash:
   '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.14.6'
+devenv_golang_version: '1.14.7'
 devenv_golang_hash:
+  # hash: https://golang.org/dl/
+  '1.14.7': '4a7fa60f323ee1416a4b1425aefc37ea359e9d64df19c326a58953a97ad41ea5'
   # hash: https://golang.org/dl/
   '1.14.6': '5c566ddc2e0bcfc25c26a5dc44a440fcc0177f7350c1f01952b34d5989a0d287'
 
