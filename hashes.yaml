@@ -77,8 +77,11 @@ devenv_packer_hash:
   '1.6.0': 'a678c995cb8dc232db3353881723793da5acc15857a807d96c52e96e671309d9'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.12.29'
+devenv_terraform_version: '0.13.0'
 devenv_terraform_hash:
+  # hash: https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_SHA256SUMS.sig
+  '0.13.0': '9ed437560faf084c18716e289ea712c784a514bdd7f2796549c735d439dbe378'
   # hash: https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_SHA256SUMS.sig
   '0.12.29': '872245d9c6302b24dc0d98a1e010aef1e4ef60865a2d1f60102c8ad03e9d5a1d'
