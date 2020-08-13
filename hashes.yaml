@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.38'
+devenv_awscli_version: '2.0.39'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.39.zip.sig
+  '2.0.39': '353504a2777d6d7a87a3ecef14b8b026ba5a5b65ef9ad1ca40f6c8b4ac69d34a'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.38.zip.sig
   '2.0.38': 'ae95c0949c1e66d175923f5cf801337a777c90cffb38048171d5d468bebc4354'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.37.zip.sig
@@ -21,8 +23,10 @@ devenv_docker_compose_hash:
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '304.0.0'
+devenv_gcloud_version: '305.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '305.0.0': 'afed6638d71377e45242f77a972d1963722249cf46b9a23021390790b01e0de6'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '304.0.0': '9cc7ec94855c3cab99211879ab8774a5a16b8de5322be5dd055e8da6d80495d3'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
@@ -31,8 +35,10 @@ devenv_gcloud_hash:
   '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.14.7'
+devenv_golang_version: '1.15'
 devenv_golang_hash:
+  # hash: https://golang.org/dl/
+  '1.15': '2d75848ac606061efe52a8068d0e647b35ce487a15bb52272c427df485193602'
   # hash: https://golang.org/dl/
   '1.14.7': '4a7fa60f323ee1416a4b1425aefc37ea359e9d64df19c326a58953a97ad41ea5'
   # hash: https://golang.org/dl/
@@ -53,8 +59,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.18.6'
+devenv_kubectl_version: '1.18.7'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.7/bin/linux/amd64/kubectl.sha256
+  '1.18.7': 'eb6d7cc09abe0fe6626bdcbc710b1e0721da3af91e9255a180f62aa558897763'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.6/bin/linux/amd64/kubectl.sha256
   '1.18.6': '62fcb9922164725c7cba5747562f2ad2f4d834ad0a458c1e4c794cc203dcdfb3'
 
