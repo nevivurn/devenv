@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.39'
+devenv_awscli_version: '2.0.40'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.40.zip.sig
+  '2.0.40': 'e27a8f66df1d6cea2672fbcf3856fce598cd780a8d25e4953798713d7da7e5a1'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.39.zip.sig
   '2.0.39': '353504a2777d6d7a87a3ecef14b8b026ba5a5b65ef9ad1ca40f6c8b4ac69d34a'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.38.zip.sig
@@ -59,8 +61,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.18.7'
+devenv_kubectl_version: '1.18.8'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl.sha256
+  '1.18.8': 'a076f5eff0710de94d1eb77bee458ea43b8f4d9572bbb3a3aec1edf0dde0a3e7'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.7/bin/linux/amd64/kubectl.sha256
   '1.18.7': 'eb6d7cc09abe0fe6626bdcbc710b1e0721da3af91e9255a180f62aa558897763'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.6/bin/linux/amd64/kubectl.sha256
