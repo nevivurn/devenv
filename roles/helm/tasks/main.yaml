@@ -1,0 +1,32 @@
+---
+- name: 'Ensure helm directory'
+  file:
+    path: '{{ devenv_root }}/helm'
+    state: 'directory'
+- name: 'Ensure helm current directory'
+  file:
+    path: '{{ devenv_root }}/helm/current'
+    state: 'directory'
+- name: 'Ensure helm version directory'
+  file:
+    path: '{{ devenv_root }}/helm/{{ devenv_helm_version }}'
+    state: 'directory'
+- name: 'Download helm'
+  get_url:
+    url: 'https://get.helm.sh/helm-v{{ devenv_helm_version }}-linux-amd64.tar.gz'
+    dest: '{{ devenv_root }}/helm/{{ devenv_helm_version }}_download.tar.gz'
+    checksum: 'sha256:{{ devenv_helm_hash[devenv_helm_version] }}'
+- name: 'Unpack helm'
+  unarchive:
+    src: '{{ devenv_root }}/helm/{{ devenv_helm_version }}_download.tar.gz'
+    dest: '{{ devenv_root }}/helm/{{ devenv_helm_version }}'
+    extra_opts: ['--strip-components', '1']
+- name: 'Ensure helm envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_helm.sh'
+- name: 'Update current helm'
+  file:
+    src: '../{{ devenv_helm_version }}/helm'
+    path: '{{ devenv_root }}/helm/current/helm'
+    state: 'link'

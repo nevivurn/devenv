@@ -9,6 +9,7 @@
     - 'docker-compose'
     - 'gcloud'
     - 'golang'
+    - 'helm'
     - 'hugo'
     - 'kind'
     - 'kubectl'
