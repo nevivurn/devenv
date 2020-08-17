@@ -15,6 +15,7 @@
     - 'kubectl'
     - 'nodejs'
     - 'packer'
+    - 'protoc'
     - 'rust'
     - 'terraform'
     - 'ytdl'
