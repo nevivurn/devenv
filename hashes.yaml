@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.40'
+devenv_awscli_version: '2.0.41'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.41.zip.sig
+  '2.0.41': '938492a2e645a1c376797c20b19a17c35d6aae1ed1058c120f2834e83930f32c'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.40.zip.sig
   '2.0.40': 'e27a8f66df1d6cea2672fbcf3856fce598cd780a8d25e4953798713d7da7e5a1'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.39.zip.sig
@@ -25,8 +27,10 @@ devenv_docker_compose_hash:
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '305.0.0'
+devenv_gcloud_version: '306.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '306.0.0': '99eca0b1d6b8a906843b06e8af231e74a905cd21f0a69dd9b9daff76946b73e1'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '305.0.0': 'afed6638d71377e45242f77a972d1963722249cf46b9a23021390790b01e0de6'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
