@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.42'
+devenv_awscli_version: '2.0.43'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.43.zip.sig
+  '2.0.43': '65de5aef64a36d81267f5501a6861c3c44f8734fefcefc1d170256f7f199da36  '
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.42.zip.sig
   '2.0.42': 'e4e8869e19620ace8811a302979dc1e805176850782fc58b8b00c22139ef22eb'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.41.zip.sig
@@ -29,8 +31,10 @@ devenv_docker_compose_hash:
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '306.0.0'
+devenv_gcloud_version: '307.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '307.0.0': '845f81f2d3afd8f2a8fc50e587e9d027ced22775f40218004f66045aededed43'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '306.0.0': '99eca0b1d6b8a906843b06e8af231e74a905cd21f0a69dd9b9daff76946b73e1'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
@@ -72,8 +76,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.18.8'
+devenv_kubectl_version: '1.19.0'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/linux/amd64/kubectl.sha256
+  '1.19.0': '79bb0d2f05487ff533999a639c075043c70a0a1ba25c1629eb1eef6ebe3ba70f'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl.sha256
   '1.18.8': 'a076f5eff0710de94d1eb77bee458ea43b8f4d9572bbb3a3aec1edf0dde0a3e7'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.7/bin/linux/amd64/kubectl.sha256
@@ -103,8 +109,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.13.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.13.0'
+devenv_terraform_version: '0.13.1'
 devenv_terraform_hash:
+  # hash: https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_SHA256SUMS.sig
+  '0.13.1': 'f7b842d1c06045b496fd00db83520e83a974a294b070dbaf88cb1013c5f02caf'
   # hash: https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_SHA256SUMS.sig
   '0.13.0': '9ed437560faf084c18716e289ea712c784a514bdd7f2796549c735d439dbe378'
