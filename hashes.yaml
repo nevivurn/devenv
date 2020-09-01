@@ -1,10 +1,12 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.43'
+devenv_awscli_version: '2.0.44'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.44.zip.sig
+  '2.0.44': 'a26fba94ab4e7fda713e46f7565479a3ca89c309c5c92d3859754e632ced352f'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.43.zip.sig
-  '2.0.43': '65de5aef64a36d81267f5501a6861c3c44f8734fefcefc1d170256f7f199da36  '
+  '2.0.43': '65de5aef64a36d81267f5501a6861c3c44f8734fefcefc1d170256f7f199da36'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.42.zip.sig
   '2.0.42': 'e4e8869e19620ace8811a302979dc1e805176850782fc58b8b00c22139ef22eb'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.41.zip.sig
@@ -57,8 +59,9 @@ devenv_golang_hash:
   '1.14.6': '5c566ddc2e0bcfc25c26a5dc44a440fcc0177f7350c1f01952b34d5989a0d287'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.3.0'
+devenv_helm_version: '3.3.1'
 devenv_helm_hash:
+  '3.3.1': '81e3974927b4f76e9f679d1f6d6b45748f8c84081a571741d48b2902d816e14c'
   '3.3.0': 'ff4ac230b73a15d66770a65a037b07e08ccbce6833fbd03a5b84f06464efea45'
 
 # https://github.com/gohugoio/hugo/releases
@@ -96,8 +99,11 @@ devenv_nodejs_hash:
   '12.18.2': 'b8dc634798ee783482c2ae1755bd7dff09d83fa7bb037cdc370b601d0a5e5cbb'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.6.1'
+devenv_packer_version: '1.6.2'
 devenv_packer_hash:
+  # hash: https://releases.hashicorp.com/packer/1.6.2/packer_1.6.2_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.6.2/packer_1.6.2_SHA256SUMS.sig
+  '1.6.2': '089fc9885263bb283f20e3e7917f85bb109d9335f24d59c81e6f3a0d4a96a608'
   # hash: https://releases.hashicorp.com/packer/1.6.1/packer_1.6.1_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/packer/1.6.1/packer_1.6.1_SHA256SUMS.sig
   '1.6.1': '8dcf97610e8c3907c23e25201dce20b498e1939e89878dec01de6975733c7729'
