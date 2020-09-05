@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.45'
+devenv_awscli_version: '2.0.46'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.46.zip.sig
+  '2.0.46': 'cc1f1a469905ce8ba3e51ebf91fc94575bbacb574bfa3b0157dfbcd5ee9cedc7'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.45.zip.sig
   '2.0.45': '75e04fc735b295590124bbacbd1d39ebb31ccd2cd5db90329e6285f0a2916aa4'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.44.zip.sig
@@ -121,8 +123,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.13.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.13.1'
+devenv_terraform_version: '0.13.2'
 devenv_terraform_hash:
+  # hash: https://releases.hashicorp.com/terraform/0.13.2/terraform_0.13.2_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.13.2/terraform_0.13.2_SHA256SUMS.sig
+  '0.13.2': '6c1c6440c5cb199e85926aea65773450564f501fddcd7876f453ba95b45ba746'
   # hash: https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_SHA256SUMS.sig
   '0.13.1': 'f7b842d1c06045b496fd00db83520e83a974a294b070dbaf88cb1013c5f02caf'
