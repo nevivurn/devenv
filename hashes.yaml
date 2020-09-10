@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.46'
+devenv_awscli_version: '2.0.47'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.47.zip.sig
+  '2.0.47': '41b9a2d1d3f54081e991ee8c9ff2ef0b3b24892f696605e0431c14043bdde5ee'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.46.zip.sig
   '2.0.46': 'cc1f1a469905ce8ba3e51ebf91fc94575bbacb574bfa3b0157dfbcd5ee9cedc7'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.45.zip.sig
@@ -31,14 +33,18 @@ devenv_awscli_hash:
   '2.0.33': '2e0471c391ce68bb25c5a0b1d820225d0d3c04562695a2ca6bce7e7e5fedccd5'
 
 # https://github.com/docker/compose/releases
-devenv_docker_compose_version: '1.26.2'
+devenv_docker_compose_version: '1.27.0'
 devenv_docker_compose_hash:
+  # hash: https://github.com/docker/compose/releases/download/1.27.0/docker-compose-Linux-x86_64.sha256
+  '1.27.0': '32f543c86617f317b111db9ba30f8b52cb2e5fff4d95f9ae03a476bba5724042'
   # hash: https://github.com/docker/compose/releases/download/1.26.2/docker-compose-Linux-x86_64.sha256
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '308.0.0'
+devenv_gcloud_version: '309.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '309.0.0': 'c95f35e090918099a5f043a0ff80a9e15b7b91540920ae253a3114ac207b2b5b'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '308.0.0': '9e8e31d9503340fc912374311ac1fffbfc5b59748d20b681f9aca3de2b68deb5'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
@@ -55,8 +61,10 @@ devenv_gcloud_hash:
   '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.15.1'
+devenv_golang_version: '1.15.2'
 devenv_golang_hash:
+  # hash: https://golang.org/dl/
+  '1.15.2': 'b49fda1ca29a1946d6bb2a5a6982cf07ccd2aba849289508ee0f9918f6bb4552'
   # hash: https://golang.org/dl/
   '1.15.1': '70ac0dbf60a8ee9236f337ed0daa7a4c3b98f6186d4497826f68e97c0c0413f6'
   # hash: https://golang.org/dl/
@@ -87,8 +95,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.19.0'
+devenv_kubectl_version: '1.19.1'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.1/bin/linux/amd64/kubectl.sha256
+  '1.19.1': 'da4de99d4e713ba0c0a5ef6efe1806fb09c41937968ad9da5c5f74b79b3b38f5'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/linux/amd64/kubectl.sha256
   '1.19.0': '79bb0d2f05487ff533999a639c075043c70a0a1ba25c1629eb1eef6ebe3ba70f'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.8/bin/linux/amd64/kubectl.sha256
@@ -142,8 +152,11 @@ devenv_terraform_hash:
   '0.12.28': 'be99da1439a60942b8d23f63eba1ea05ff42160744116e84f46fc24f1a8011b6'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.07.28'
+devenv_ytdl_version: '2020.09.06'
 devenv_ytdl_hash:
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.09.06/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.09.06/youtube-dl.sig
+  '2020.09.06': 'e9334369558ec6478ac5599b6d8bf4e68fb54d4e6db090cc61dface46e6c1508'
   # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.07.28/SHA2-256SUMS
   # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.07.28/youtube-dl.sig
   '2020.07.28': '5af3e544ecef3232ab6fdc26905ad56771ec3543c150d1940294dfab92a463cb'
