@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.49'
+devenv_awscli_version: '2.0.50'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.49.zip.sig
+  '2.0.50': 'c7f8f929361f815d165c60278283fd21fbf96718f5171da6aed8a2d22d8787d7'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.49.zip.sig
   '2.0.49': 'd4815b092ad0b22416a8ed74dffdc3a5250adbc0454d0b636b6750f94619cbae'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.47.zip.sig
@@ -35,8 +37,10 @@ devenv_awscli_hash:
   '2.0.33': '2e0471c391ce68bb25c5a0b1d820225d0d3c04562695a2ca6bce7e7e5fedccd5'
 
 # https://github.com/docker/compose/releases
-devenv_docker_compose_version: '1.27.2'
+devenv_docker_compose_version: '1.27.3'
 devenv_docker_compose_hash:
+  # hash: https://github.com/docker/compose/releases/download/1.27.3/docker-compose-Linux-x86_64.sha256
+  '1.27.3': '92055c48e1514c0377b76ed3df87f505c50099145d86835b06fa5109811b6a83'
   # hash: https://github.com/docker/compose/releases/download/1.27.2/docker-compose-Linux-x86_64.sha256
   '1.27.2': '9e7885186d502f4920b8e8926617128765856f758f13c5f771da5b0338e690ce'
   # hash: https://github.com/docker/compose/releases/download/1.27.0/docker-compose-Linux-x86_64.sha256
@@ -81,8 +85,9 @@ devenv_golang_hash:
   '1.14.6': '5c566ddc2e0bcfc25c26a5dc44a440fcc0177f7350c1f01952b34d5989a0d287'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.3.1'
+devenv_helm_version: '3.3.3'
 devenv_helm_hash:
+  '3.3.3': '246d58b6b353e63ae8627415a7340089015e3eb542ff7b5ce124b0b1409369cc'
   '3.3.1': '81e3974927b4f76e9f679d1f6d6b45748f8c84081a571741d48b2902d816e14c'
   '3.3.0': 'ff4ac230b73a15d66770a65a037b07e08ccbce6833fbd03a5b84f06464efea45'
 
@@ -105,8 +110,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.19.1'
+devenv_kubectl_version: '1.19.2'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.2/bin/linux/amd64/kubectl.sha256
+  '1.19.2': 'f51adfe7968ee173dbfb3dabfc10dc774983cbf8a3a7c1c75a1423b91fda6821'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.1/bin/linux/amd64/kubectl.sha256
   '1.19.1': 'da4de99d4e713ba0c0a5ef6efe1806fb09c41937968ad9da5c5f74b79b3b38f5'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/linux/amd64/kubectl.sha256
@@ -145,8 +152,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.13.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.13.2'
+devenv_terraform_version: '0.13.3'
 devenv_terraform_hash:
+  # hash: https://releases.hashicorp.com/terraform/0.13.3/terraform_0.13.3_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.13.3/terraform_0.13.3_SHA256SUMS.sig
+  '0.13.3': '35c662be9d32d38815cde5fa4c9fa61a3b7f39952ecd50ebf92fd1b2ddd6109b'
   # hash: https://releases.hashicorp.com/terraform/0.13.2/terraform_0.13.2_SHA256SUMS
   # sig (hash): https://releases.hashicorp.com/terraform/0.13.2/terraform_0.13.2_SHA256SUMS.sig
   '0.13.2': '6c1c6440c5cb199e85926aea65773450564f501fddcd7876f453ba95b45ba746'
