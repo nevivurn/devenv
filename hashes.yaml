@@ -1,8 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.55'
+devenv_awscli_version: '2.0.56'
 devenv_awscli_hash:
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.56.zip.sig
+  '2.0.56': '3918c3e83cde54e101e99ff61dfac70f9dda59ef452cb58a01e0bc1142b95175'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.55.zip.sig
   '2.0.55': '113ba63e2ca8da04a49ee84b1d465bf8e87badbd1e66c7be79252d16c52ea203'
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.54.zip.sig
@@ -55,8 +57,10 @@ devenv_docker_compose_hash:
   '1.26.2': '13e50875393decdb047993c3c0192b0a3825613e6dfc0fa271efed4f5dbdd6eb'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '313.0.0'
+devenv_gcloud_version: '314.0.0'
 devenv_gcloud_hash:
+  # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
+  '314.0.0': '036e041ea18104f6fae1e62f031319fd20ce7a1d7b68d28f1f51f7a1cb5bbb5c'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
   '313.0.0': '082e80a8283cc03faefd813f3d2de878ed1c2d83bf907e05ba6a61ec28da65dd'
   # hash: https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
@@ -81,8 +85,10 @@ devenv_gcloud_hash:
   '302.0.0': '59cfb58e52d93ef4a39d475f6c5c9c0f13ad229ea7f871a8be41e6a2c0a76e4b'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.15.2'
+devenv_golang_version: '1.15.3'
 devenv_golang_hash:
+  # hash: https://golang.org/dl/
+  '1.15.3': '010a88df924a81ec21b293b5da8f9b11c176d27c0ee3962dc1738d2352d3c02d'
   # hash: https://golang.org/dl/
   '1.15.2': 'b49fda1ca29a1946d6bb2a5a6982cf07ccd2aba849289508ee0f9918f6bb4552'
   # hash: https://golang.org/dl/
@@ -103,8 +109,10 @@ devenv_helm_hash:
   '3.3.0': 'ff4ac230b73a15d66770a65a037b07e08ccbce6833fbd03a5b84f06464efea45'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.76.2'
+devenv_hugo_version: '0.76.5'
 devenv_hugo_hash:
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_checksums.txt
+  '0.76.5': '38f1d92fb8219168e684f0b82faef3aea0f3d1bd89752ec2179b41fb9eceea17'
   # hash: https://github.com/gohugoio/hugo/releases/download/v0.76.2/hugo_0.76.2_checksums.txt
   '0.76.2': 'f220dbf793819790028def08ff4c934742dd73de9bb0a4a4be59cc70314008cb'
   # hash: https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_checksums.txt
@@ -123,8 +131,10 @@ devenv_kind_hash:
   '0.8.1': '781c3db479b805d161b7c2c7a31896d1a504b583ebfcce8fcd49538c684d96bc'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.19.2'
+devenv_kubectl_version: '1.19.3'
 devenv_kubectl_hash:
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.3/bin/linux/amd64/kubectl.sha256
+  '1.19.3': '84eeb8237448e4f431fef0f0ec0ba8b07558d8e52d5a7e89b4ae64dadcffbe66'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.2/bin/linux/amd64/kubectl.sha256
   '1.19.2': 'f51adfe7968ee173dbfb3dabfc10dc774983cbf8a3a7c1c75a1423b91fda6821'
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.1/bin/linux/amd64/kubectl.sha256
