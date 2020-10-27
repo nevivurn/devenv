@@ -1,0 +1,31 @@
+---
+- name: 'Ensure kustomize directory'
+  file:
+    path: '{{ devenv_root }}/kustomize'
+    state: 'directory'
+- name: 'Ensure kustomize current directory'
+  file:
+    path: '{{ devenv_root }}/kustomize/current'
+    state: 'directory'
+- name: 'Ensure kustomize version directory'
+  file:
+    path: '{{ devenv_root }}/kustomize/{{ devenv_kustomize_version }}'
+    state: 'directory'
+- name: 'Download kustomize'
+  get_url:
+    url: 'https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{ devenv_kustomize_version }}/kustomize_v{{ devenv_kustomize_version }}_linux_amd64.tar.gz'
+    dest: '{{ devenv_root }}/kustomize/{{ devenv_kustomize_version }}_download.tar.gz'
+    checksum: 'sha256:{{ devenv_kustomize_hash[devenv_kustomize_version] }}'
+- name: 'Unpack kustomize'
+  unarchive:
+    src: '{{ devenv_root }}/kustomize/{{ devenv_kustomize_version }}_download.tar.gz'
+    dest: '{{ devenv_root }}/kustomize/{{ devenv_kustomize_version }}'
+- name: 'Ensure kustomize envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_kustomize.sh'
+- name: 'Update current kustomize'
+  file:
+    src: '../{{ devenv_kustomize_version }}/kustomize'
+    path: '{{ devenv_root }}/kustomize/current/kustomize'
+    state: 'link'

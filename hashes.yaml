@@ -148,6 +148,11 @@ devenv_kubectl_hash:
   # hash: https://storage.googleapis.com/kubernetes-release/release/v1.18.6/bin/linux/amd64/kubectl.sha256
   '1.18.6': '62fcb9922164725c7cba5747562f2ad2f4d834ad0a458c1e4c794cc203dcdfb3'
 
+# https://github.com/kubernetes-sigs/kustomize/releases
+devenv_kustomize_version: '3.8.5'
+devenv_kustomize_hash:
+  '3.8.5': '7ff6218fdbf7ad5d90805ff9091f256ba6868e3116c2c05d3e50fe0a0595f50f'
+
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '12.19.0'
 devenv_nodejs_hash:
