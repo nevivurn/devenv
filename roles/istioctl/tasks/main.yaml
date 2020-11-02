@@ -1,0 +1,28 @@
+---
+- name: 'Ensure istioctl directory'
+  file:
+    path: '{{ devenv_root }}/istioctl'
+    state: 'directory'
+- name: 'Ensure istioctl version directory'
+  file:
+    path: '{{ devenv_root }}/istioctl/{{ devenv_istioctl_version }}'
+    state: 'directory'
+- name: 'Download istioctl'
+  get_url:
+    url: 'https://github.com/istio/istio/releases/download/{{ devenv_istioctl_version }}/istio-{{ devenv_istioctl_version }}-linux-amd64.tar.gz'
+    dest: '{{ devenv_root }}/istioctl/{{ devenv_istioctl_version }}_download.tar.xz'
+    checksum: 'sha256:{{ devenv_istioctl_hash[devenv_istioctl_version] }}'
+- name: 'Unpack istioctl'
+  unarchive:
+    src: '{{ devenv_root }}/istioctl/{{ devenv_istioctl_version }}_download.tar.xz'
+    dest: '{{ devenv_root }}/istioctl/{{ devenv_istioctl_version }}'
+    extra_opts: ['--strip-components', '1']
+- name: 'Ensure istioctl envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_istioctl.sh'
+- name: 'Update current istioctl'
+  file:
+    src: '{{ devenv_istioctl_version }}'
+    path: '{{ devenv_root }}/istioctl/current'
+    state: 'link'

@@ -34,6 +34,11 @@ devenv_hugo_hash:
   # hash: https://github.com/gohugoio/hugo/releases/download/v0.77.0/hugo_0.77.0_checksums.txt
   '0.77.0': '943779931c97fcb5aef58e44d0e65f417131914fa093dde3bc9da737ee1a7976'
 
+devenv_istioctl_version: '1.7.4'
+devenv_istioctl_hash:
+  # hash: https://github.com/istio/istio/releases/download/1.7.4/istio-1.7.4-linux-amd64.tar.gz.sha256
+  '1.7.4': '6ed5eb68e71a0884cad39c94616e4ce0a93b90369b20d3659cfaf71da015f902'
+
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
 devenv_kind_version: '0.9.0'
