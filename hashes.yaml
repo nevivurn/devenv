@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.60'
+devenv_awscli_version: '2.0.61'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.60.zip.sig
-  '2.0.60': '5a8bd3b062d7e96e8990b4152830509bebc475d2138f37526cd844982c0c1c5c'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.61.zip.sig
+  '2.0.61': '72ea1b4acc4862a4f6dfa4ed8ec505127b5d8eb7dc0acdd77a8d7f44effb6b6d'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -29,10 +29,10 @@ devenv_helm_hash:
   '3.4.0': '270acb0f085b72ec28aee894c7443739271758010323d72ced0e92cd2c96ffdb'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.76.5'
+devenv_hugo_version: '0.77.0'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_checksums.txt
-  '0.76.5': '38f1d92fb8219168e684f0b82faef3aea0f3d1bd89752ec2179b41fb9eceea17'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.77.0/hugo_0.77.0_checksums.txt
+  '0.77.0': '943779931c97fcb5aef58e44d0e65f417131914fa093dde3bc9da737ee1a7976'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -47,9 +47,10 @@ devenv_kubectl_hash:
   '1.19.3': '84eeb8237448e4f431fef0f0ec0ba8b07558d8e52d5a7e89b4ae64dadcffbe66'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '3.8.5'
+devenv_kustomize_version: '3.8.6'
 devenv_kustomize_hash:
-  '3.8.5': '7ff6218fdbf7ad5d90805ff9091f256ba6868e3116c2c05d3e50fe0a0595f50f'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.6/checksums.txt
+  '3.8.6': 'e05201181e35f1e05c374522e5dc3c0ffd141ad94ef443f407c6dce652844c5f'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '14.15.0'
@@ -58,11 +59,11 @@ devenv_nodejs_hash:
   '14.15.0': '93e5b94cfaa3edec80832725f8c09cde2cd0c327da89ad9ad811cf9a1b5d0f1b'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.6.4'
+devenv_packer_version: '1.6.5'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.6.4/packer_1.6.4_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.6.4/packer_1.6.4_SHA256SUMS.sig
-  '1.6.4': 'a20ec68e9eb6e1d6016481003f705babbecc28e234f8434f3a35f675cb200ea8'
+  # hash: https://releases.hashicorp.com/packer/1.6.5/packer_1.6.5_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.6.5/packer_1.6.5_SHA256SUMS.sig
+  '1.6.5': 'a49f6408a50c220fe3f1a6192ea21134e2e8f31092c507614cd27ad4f913234b'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.13.0'
