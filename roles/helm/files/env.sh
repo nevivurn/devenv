@@ -10,3 +10,5 @@ if [[ -z "$DEVENV_HELM_SETUP" ]]; then
 	export PATH="${DEVENV_HELM_BIN}:${PATH}"
 fi
 export DEVENV_HELM_SETUP=1
+
+source <(helm completion bash)

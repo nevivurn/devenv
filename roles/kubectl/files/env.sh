@@ -10,3 +10,5 @@ if [[ -z "$DEVENV_KUBECTL_SETUP" ]]; then
 	export PATH="${DEVENV_KUBECTL_BIN}:${PATH}"
 fi
 export DEVENV_KUBECTL_SETUP=1
+
+source <(kubectl completion bash)
