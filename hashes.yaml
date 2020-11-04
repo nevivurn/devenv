@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.27.4': '04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '316.0.0'
+devenv_gcloud_version: '317.0.0'
 devenv_gcloud_hash:
-  '316.0.0': '96a0b75474dbfa9f3d46dcdec7a4d68a664cb7d57fade5710fe88b1fdf6babb3'
+  '317.0.0': '1809d491a2f0f6c1000628ee0a04b7c516decd377bad9a639ce083c8e42e7b76'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.15.3'
@@ -29,10 +29,10 @@ devenv_helm_hash:
   '3.4.0': '270acb0f085b72ec28aee894c7443739271758010323d72ced0e92cd2c96ffdb'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.77.0'
+devenv_hugo_version: '0.78.0'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.77.0/hugo_0.77.0_checksums.txt
-  '0.77.0': '943779931c97fcb5aef58e44d0e65f417131914fa093dde3bc9da737ee1a7976'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.78.0/hugo_0.78.0_checksums.txt
+  '0.78.0': '72964765fba61950d4ebb0d131f2cb585f26cddb4ee189e65d874263d2b70839'
 
 devenv_istioctl_version: '1.7.4'
 devenv_istioctl_hash:
