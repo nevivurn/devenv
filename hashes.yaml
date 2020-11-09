@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.61'
+devenv_awscli_version: '2.0.62'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.61.zip.sig
-  '2.0.61': '72ea1b4acc4862a4f6dfa4ed8ec505127b5d8eb7dc0acdd77a8d7f44effb6b6d'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.62.zip.sig
+  '2.0.62': '4973413f8b9e7d25a9f357ee6eb4a9cb5902614cc2173e1f69cee3e9b1d8d071'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -18,10 +18,10 @@ devenv_gcloud_hash:
   '317.0.0': '1809d491a2f0f6c1000628ee0a04b7c516decd377bad9a639ce083c8e42e7b76'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.15.3'
+devenv_golang_version: '1.15.4'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.15.3': '010a88df924a81ec21b293b5da8f9b11c176d27c0ee3962dc1738d2352d3c02d'
+  '1.15.4': 'eb61005f0b932c93b424a3a4eaa67d72196c79129d9a3ea8578047683e2c80d5'
 
 # https://github.com/helm/helm/releases
 devenv_helm_version: '3.4.0'
@@ -29,10 +29,10 @@ devenv_helm_hash:
   '3.4.0': '270acb0f085b72ec28aee894c7443739271758010323d72ced0e92cd2c96ffdb'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.78.0'
+devenv_hugo_version: '0.78.1'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.78.0/hugo_0.78.0_checksums.txt
-  '0.78.0': '72964765fba61950d4ebb0d131f2cb585f26cddb4ee189e65d874263d2b70839'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.78.1/hugo_0.78.1_checksums.txt
+  '0.78.1': 'e0d1b3ca30426931084dd6a0abb451be28f6a3dd23d85d87d272a1f95782912d'
 
 devenv_istioctl_version: '1.7.4'
 devenv_istioctl_hash:
