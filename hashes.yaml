@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.0.62'
+devenv_awscli_version: '2.0.63'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.62.zip.sig
-  '2.0.62': '4973413f8b9e7d25a9f357ee6eb4a9cb5902614cc2173e1f69cee3e9b1d8d071'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.63.zip.sig
+  '2.0.63': '09d40daf616f7ff3712940dd086426a7a5c6dbe4ddb6271b046f81eccc3fa972'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
