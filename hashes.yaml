@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.0'
+devenv_awscli_version: '2.1.1'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.63.zip.sig
-  '2.1.0': 'c96e0650cc301ab705660f9e72841b3ae94ff2fb70e8422dd2a9a891331328aa'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.1.zip.sig
+  '2.1.1': '9cf3157b23ef107bb583a089dd82e832e5159dc064fd29b600cd37c58680a885'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -18,15 +18,15 @@ devenv_gcloud_hash:
   '318.0.0': 'a0a35f3cd942991c374983bb7c1d9e532c1c74878d65ade76c5511b9c16f3acb'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.15.4'
+devenv_golang_version: '1.15.5'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.15.4': 'eb61005f0b932c93b424a3a4eaa67d72196c79129d9a3ea8578047683e2c80d5'
+  '1.15.5': '9a58494e8da722c3aef248c9227b0e9c528c7318309827780f16220998180a0d'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.4.0'
+devenv_helm_version: '3.4.1'
 devenv_helm_hash:
-  '3.4.0': '270acb0f085b72ec28aee894c7443739271758010323d72ced0e92cd2c96ffdb'
+  '3.4.1': '538f85b4b73ac6160b30fd0ab4b510441aa3fa326593466e8bf7084a9c288420'
 
 # https://github.com/gohugoio/hugo/releases
 devenv_hugo_version: '0.78.1'
@@ -46,16 +46,16 @@ devenv_kind_hash:
   '0.9.0': '35a640e0ca479192d86a51b6fd31c657403d2cf7338368d62223938771500dc8'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.19.3'
+devenv_kubectl_version: '1.19.4'
 devenv_kubectl_hash:
-  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.3/bin/linux/amd64/kubectl.sha256
-  '1.19.3': '84eeb8237448e4f431fef0f0ec0ba8b07558d8e52d5a7e89b4ae64dadcffbe66'
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.19.4/bin/linux/amd64/kubectl.sha256
+  '1.19.4': '7df333f1fc1207d600139fe8196688303d05fbbc6836577808cda8fe1e3ea63f'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '3.8.6'
+devenv_kustomize_version: '3.8.7'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.6/checksums.txt
-  '3.8.6': 'e05201181e35f1e05c374522e5dc3c0ffd141ad94ef443f407c6dce652844c5f'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.7/checksums.txt
+  '3.8.7': '4a3372d7bfdffe2eaf729e77f88bc94ce37dc84de55616bfe90aac089bf6fd02'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '14.15.0'
