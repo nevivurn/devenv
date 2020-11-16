@@ -29,10 +29,10 @@ devenv_helm_hash:
   '3.4.1': '538f85b4b73ac6160b30fd0ab4b510441aa3fa326593466e8bf7084a9c288420'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.78.1'
+devenv_hugo_version: '0.78.2'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.78.1/hugo_0.78.1_checksums.txt
-  '0.78.1': 'e0d1b3ca30426931084dd6a0abb451be28f6a3dd23d85d87d272a1f95782912d'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_0.78.2_checksums.txt
+  '0.78.2': '6c139580bf42dd66615f61cb33d62fc47cb855790d744050d78924bf1f48df0d'
 
 devenv_istioctl_version: '1.7.4'
 devenv_istioctl_hash:
@@ -71,7 +71,7 @@ devenv_packer_hash:
   '1.6.5': 'a49f6408a50c220fe3f1a6192ea21134e2e8f31092c507614cd27ad4f913234b'
 
 # https://github.com/protocolbuffers/protobuf/releases
-devenv_protoc_version: '3.13.0'
+devenv_protoc_version: '3.14.0'
 
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '0.13.5'
