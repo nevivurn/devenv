@@ -20,4 +20,4 @@
     - 'protoc'
     - 'rust'
     - 'terraform'
-    #- 'ytdl' # DMCA'd
+    - 'ytdl'
