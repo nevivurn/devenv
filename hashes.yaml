@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.1'
+devenv_awscli_version: '2.1.3'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.1.zip.sig
-  '2.1.1': '9cf3157b23ef107bb583a089dd82e832e5159dc064fd29b600cd37c58680a885'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.3.zip.sig
+  '2.1.3': '1373dea11cb3a2f089a92f25edb55ca850f86f2d23164f038c726363fbaffafb'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.27.4': '04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d'
 
 # https://cloud.google.com/sdk/docs/downloads-versioned-archives#installation_instructions
-devenv_gcloud_version: '318.0.0'
+devenv_gcloud_version: '319.0.0'
 devenv_gcloud_hash:
-  '318.0.0': 'a0a35f3cd942991c374983bb7c1d9e532c1c74878d65ade76c5511b9c16f3acb'
+  '319.0.0': '28048af8fe83a1c80a37258d4e6c00edf22bc93edf570fb9bb6a42cca726d4c5'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.15.5'
