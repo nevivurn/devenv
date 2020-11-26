@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.3'
+devenv_awscli_version: '2.1.4'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.3.zip.sig
-  '2.1.3': '1373dea11cb3a2f089a92f25edb55ca850f86f2d23164f038c726363fbaffafb'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.4.zip.sig
+  '2.1.4': '2cb71de8e1ed5a7b41d476b2c41a80a07fd70bd25dbc9d7db7c4912fc3cc9bd2'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -83,6 +83,6 @@ devenv_terraform_hash:
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2020.11.26'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.24/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.24/youtube-dl.sig
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.26/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.11.26/youtube-dl.sig
   '2020.11.26': '3a789fc7ec60e53469f24862ade38f497dc5656505814461334f76b33d17ee3b'
