@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.9'
+devenv_awscli_version: '2.1.10'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.9.zip.sig
-  '2.1.9': 'da5e1fb5ab51b22ed04b6cf784508181cc986d3bd1daaebed94b3f1486b05c71'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.10.zip.sig
+  '2.1.10': 'd165da8060626936365b68dc183b6e1413af5c5d9b509003885387dcc3d37ac4'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -52,10 +52,10 @@ devenv_kubectl_hash:
   '1.20.0': 'a5895007f331f08d2e082eb12458764949559f30bcc5beae26c38f3e2724262c'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '3.8.7'
+devenv_kustomize_version: '3.8.8'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.7/checksums.txt
-  '3.8.7': '4a3372d7bfdffe2eaf729e77f88bc94ce37dc84de55616bfe90aac089bf6fd02'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.8/checksums.txt
+  '3.8.8': '175938206f23956ec18dac3da0816ea5b5b485a8493a839da278faac82e3c303'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '14.15.1'
@@ -81,8 +81,8 @@ devenv_terraform_hash:
   '0.14.2': '6f380c0c7a846f9e0aedb98a2073d2cbd7d1e2dc0e070273f9325f1b69e668b2'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.12.09'
+devenv_ytdl_version: '2020.12.12'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.09/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.09/youtube-dl.sig
-  '2020.12.09': '0b673f1feb63bba77d2985a8a70ed74afe4addec75ba6ad2869786037de15933'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.12/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.12/youtube-dl.sig
+  '2020.12.12': '3bd046033572696764b08bfeed733b461874b0d6b3f5519f38617fd21c6be1c5'
