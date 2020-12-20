@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.10'
+devenv_awscli_version: '2.1.13'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.10.zip.sig
-  '2.1.10': 'd165da8060626936365b68dc183b6e1413af5c5d9b509003885387dcc3d37ac4'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.13.zip.sig
+  '2.1.13': 'b2c3cb30d6fc2b07fda0d84212c33a9f4fef5637fe4b3ff5bc4361e756044bb7'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.27.4': '04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '320.0.0'
+devenv_gcloud_version: '321.0.0'
 devenv_gcloud_hash:
-  '320.0.0': '12fd3ced5ef3f3f29cfbae7fdf42d2494e60b7834517c48b481272c19cbf7175'
+  '321.0.0': '673f8d4af5e524dcf06547f6c2debcc02ff6678f47f67812d7f90c696cd76e96'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.15.6'
@@ -29,10 +29,10 @@ devenv_helm_hash:
   '3.4.2': 'cacde7768420dd41111a4630e047c231afa01f67e49cc0c6429563e024da4b98'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.79.0'
+devenv_hugo_version: '0.79.1'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_checksums.txt
-  '0.79.0': '1e5a2909e2c121823113f4c2fd2f4818b77319dc12991221d90f4fa66db04f9c'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.79.1/hugo_0.79.1_checksums.txt
+  '0.79.1': 'cde743cdea29501e0ec231790e8c357a9f62e1cba571450fc6a92519ca102ca7'
 
 devenv_istioctl_version: '1.7.4'
 devenv_istioctl_hash:
@@ -46,10 +46,10 @@ devenv_kind_hash:
   '0.9.0': '35a640e0ca479192d86a51b6fd31c657403d2cf7338368d62223938771500dc8'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.20.0'
+devenv_kubectl_version: '1.20.1'
 devenv_kubectl_hash:
-  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.20.0/bin/linux/amd64/kubectl.sha256
-  '1.20.0': 'a5895007f331f08d2e082eb12458764949559f30bcc5beae26c38f3e2724262c'
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.20.1/bin/linux/amd64/kubectl.sha256
+  '1.20.1': '3f4b52a8072013e4cd34c9ea07e3c0c4e0350b227e00507fb1ae44a9adbf6785'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
 devenv_kustomize_version: '3.8.8'
@@ -58,17 +58,17 @@ devenv_kustomize_hash:
   '3.8.8': '175938206f23956ec18dac3da0816ea5b5b485a8493a839da278faac82e3c303'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.15.1'
+devenv_nodejs_version: '14.15.3'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.15.1/SHASUMS256.txt.asc
-  '14.15.1': '608732c7b8c2ac0683fee459847ad3993a428f0398c73555b9270345f4a64752'
+  # hash & sig (hash): https://nodejs.org/dist/v14.15.3/SHASUMS256.txt.asc
+  '14.15.3': '6715ecd8b5ab626b4de8454bd0da629a6194bf8f25db71545da64b78b95e4350'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.6.5'
+devenv_packer_version: '1.6.6'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.6.5/packer_1.6.5_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.6.5/packer_1.6.5_SHA256SUMS.sig
-  '1.6.5': 'a49f6408a50c220fe3f1a6192ea21134e2e8f31092c507614cd27ad4f913234b'
+  # hash: https://releases.hashicorp.com/packer/1.6.6/packer_1.6.6_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.6.6/packer_1.6.6_SHA256SUMS.sig
+  '1.6.6': '721d119fd70e38d6f2b4ccd8a39daf6b4d36bf5f7640036acafcaaa967b00c3b'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.14.0'
@@ -81,8 +81,8 @@ devenv_terraform_hash:
   '0.14.2': '6f380c0c7a846f9e0aedb98a2073d2cbd7d1e2dc0e070273f9325f1b69e668b2'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.12.12'
+devenv_ytdl_version: '2020.12.14'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.12/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.12/youtube-dl.sig
-  '2020.12.12': '3bd046033572696764b08bfeed733b461874b0d6b3f5519f38617fd21c6be1c5'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.14/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.14/youtube-dl.sig
+  '2020.12.14': '29ac259a793971ebf34abd59500c33a3107e485fb3a950578ddaa20b5a5b3c89'
