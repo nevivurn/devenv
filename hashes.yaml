@@ -74,11 +74,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.14.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.14.2'
+devenv_terraform_version: '0.14.3'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/0.14.2/terraform_0.14.2_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/0.14.2/terraform_0.14.2_SHA256SUMS.sig
-  '0.14.2': '6f380c0c7a846f9e0aedb98a2073d2cbd7d1e2dc0e070273f9325f1b69e668b2'
+  # hash: https://releases.hashicorp.com/terraform/0.14.3/terraform_0.14.3_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.14.3/terraform_0.14.3_SHA256SUMS.sig
+  '0.14.3': 'aa7b6cb6f366ffb920083b2a9739079ee560240ca31b580fe422af4af28cbb5a'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2020.12.14'
