@@ -3,7 +3,7 @@
 DEVENV_PROTOC_PATH="${DEVENV_ROOT}/protoc/current"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
-	echo "[devenv/protoc] protoc version: $("${DEVENV_PROTOC_PATH}/protoc" --version)"
+	echo "[devenv/protoc] protoc version: $("${DEVENV_PROTOC_PATH}/bin/protoc" --version)"
 fi
 
 if [[ -z "$DEVENV_PROTOC_SETUP" ]]; then

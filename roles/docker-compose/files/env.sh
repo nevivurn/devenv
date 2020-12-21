@@ -3,7 +3,7 @@
 DEVENV_DOCKER_COMPOSE_BIN="${DEVENV_ROOT}/docker-compose/current"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
-	echo "[devenv/docker-compose] docker-compose version: $("${DEVENV_DOCKER_COMPOSE_BIN}/docker-compose" version)"
+	echo "[devenv/docker-compose] docker-compose version: $("${DEVENV_DOCKER_COMPOSE_BIN}/docker-compose" --version)"
 fi
 
 if [[ -z "$DEVENV_DOCKER_COMPOSE_SETUP" ]]; then
