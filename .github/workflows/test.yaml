@@ -19,4 +19,4 @@ jobs:
       - name: Test
         env:
           DEVENV_DEBUG: '1'
-        run: bash -c 'source .devenv/activate'
+        run: bash -c 'source ~/.devenv/activate'
