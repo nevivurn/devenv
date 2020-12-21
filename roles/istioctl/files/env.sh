@@ -3,7 +3,7 @@
 DEVENV_ISTIOCTL_BIN="${DEVENV_ROOT}/istioctl/current"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
-	echo "[devenv/istioctl] istioctl version: $("${DEVENV_ISTIOCTL_BIN}/bin/istioctl" version)"
+	echo "[devenv/istioctl] istioctl version: $("${DEVENV_ISTIOCTL_BIN}/bin/istioctl" version --remote=false)"
 fi
 
 if [[ -z "${DEVENV_ISTIOCTL_SETUP}" ]]; then
