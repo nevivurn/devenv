@@ -8,12 +8,10 @@ jobs:
   ansible:
     name: Ansible
     runs-on: ubuntu-20.04
-    env: {}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
       - name: Ansible Playbook
         run: ansible-playbook -v main.yaml
       - name: Test
