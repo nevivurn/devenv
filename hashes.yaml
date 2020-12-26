@@ -81,8 +81,8 @@ devenv_terraform_hash:
   '0.14.3': 'aa7b6cb6f366ffb920083b2a9739079ee560240ca31b580fe422af4af28cbb5a'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.12.14'
+devenv_ytdl_version: '2020.12.22'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.14/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.14/youtube-dl.sig
-  '2020.12.14': '29ac259a793971ebf34abd59500c33a3107e485fb3a950578ddaa20b5a5b3c89'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.22/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.22/youtube-dl.sig
+  '2020.12.22': '3965fe7e6f9eca37d187e78b1b9f8106fffc7b7f5ee70b1b71e15377ef96a1bd'
