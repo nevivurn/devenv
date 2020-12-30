@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.13'
+devenv_awscli_version: '2.1.15'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.13.zip.sig
-  '2.1.13': 'b2c3cb30d6fc2b07fda0d84212c33a9f4fef5637fe4b3ff5bc4361e756044bb7'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.15.zip.sig
+  '2.1.15': '096c3be0433c2ef39a6a7003088569595ae96c2ebd962289723feee5070b56ff'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -52,10 +52,10 @@ devenv_kubectl_hash:
   '1.20.1': '3f4b52a8072013e4cd34c9ea07e3c0c4e0350b227e00507fb1ae44a9adbf6785'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '3.8.8'
+devenv_kustomize_version: '3.9.1'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.8.8/checksums.txt
-  '3.8.8': '175938206f23956ec18dac3da0816ea5b5b485a8493a839da278faac82e3c303'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.9.1/checksums.txt
+  '3.9.1': '0fb2c3299ca3668205eac3a3a5be9a8e4a79d7c4fba18542a6c444e0d33ddbdd'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '14.15.3'
@@ -81,8 +81,8 @@ devenv_terraform_hash:
   '0.14.3': 'aa7b6cb6f366ffb920083b2a9739079ee560240ca31b580fe422af4af28cbb5a'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2020.12.22'
+devenv_ytdl_version: '2020.12.29'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.22/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.22/youtube-dl.sig
-  '2020.12.22': '3965fe7e6f9eca37d187e78b1b9f8106fffc7b7f5ee70b1b71e15377ef96a1bd'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.29/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2020.12.29/youtube-dl.sig
+  '2020.12.29': 'e1c503b74882e118fa47a8452af3b86b5e12a3fdb03cb9d95bc3d943bc207395'
