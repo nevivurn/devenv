@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.16'
+devenv_awscli_version: '2.1.19'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.16.zip.sig
-  '2.1.16': 'c6155a8f37d65b656b063a3c671c45df062025509813c3536618505445504ba2'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.19.zip.sig
+  '2.1.19': '36fd8cb2ca82bfec27a25d23643de4879a9da88be7c44f5e0628d4fe159e8c2f'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.27.4'
@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.27.4': '04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '321.0.0'
+devenv_gcloud_version: '323.0.0'
 devenv_gcloud_hash:
-  '321.0.0': '673f8d4af5e524dcf06547f6c2debcc02ff6678f47f67812d7f90c696cd76e96'
+  '323.0.0': '3c7eb5b1d7a6d1111b195cc6892b1329585f0253559aa502731fd8fa31c435a9'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.15.6'
@@ -24,9 +24,9 @@ devenv_golang_hash:
   '1.15.6': '3918e6cc85e7eaaa6f859f1bdbaac772e7a825b0eb423c63d3ae68b21f84b844'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.4.2'
+devenv_helm_version: '3.5.0'
 devenv_helm_hash:
-  '3.4.2': 'cacde7768420dd41111a4630e047c231afa01f67e49cc0c6429563e024da4b98'
+  '3.5.0': '3fff0354d5fba4c73ebd5db59a59db72f8a5bbe1117a0b355b0c2983e98db95b'
 
 # https://github.com/gohugoio/hugo/releases
 devenv_hugo_version: '0.80.0'
@@ -35,10 +35,10 @@ devenv_hugo_hash:
   '0.80.0': 'b3a259bbe633e2f9182f8ecfc1b5cee6a7cfc4c970defe5f29c9959f2ef3259b'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.8.1'
+devenv_istioctl_version: '1.8.2'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.8.1/istio-1.8.1-linux-amd64.tar.gz.sha256
-  '1.8.1': 'cb39fb7fc8d99b172aefc7dba197588839d15ce682f515684548ec21301e13ff'
+  # hash: https://github.com/istio/istio/releases/download/1.8.2/istio-1.8.2-linux-amd64.tar.gz.sha256
+  '1.8.2': '1eda8d3700eeb1dd6a6351d7b55f0a0d01ac4355b5c2ab4c77ec320b47f966db'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -47,16 +47,16 @@ devenv_kind_hash:
   '0.9.0': '35a640e0ca479192d86a51b6fd31c657403d2cf7338368d62223938771500dc8'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.20.1'
+devenv_kubectl_version: '1.20.2'
 devenv_kubectl_hash:
-  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.20.1/bin/linux/amd64/kubectl.sha256
-  '1.20.1': '3f4b52a8072013e4cd34c9ea07e3c0c4e0350b227e00507fb1ae44a9adbf6785'
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.20.2/bin/linux/amd64/kubectl.sha256
+  '1.20.2': '2583b1c9fbfc5443a722fb04cf0cc83df18e45880a2cf1f6b52d9f595c5beb88'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '3.9.1'
+devenv_kustomize_version: '3.9.2'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.9.1/checksums.txt
-  '3.9.1': '0fb2c3299ca3668205eac3a3a5be9a8e4a79d7c4fba18542a6c444e0d33ddbdd'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv3.9.2/checksums.txt
+  '3.9.2': 'f5c76a726cbd27b74587fcd2816e86b3f6279d84043b7ed3725bf48b1bc8ca4a'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '14.15.4'
@@ -82,8 +82,8 @@ devenv_terraform_hash:
   '0.14.4': '042f1f4fb47696b3442eca12bce7cce6de0b477b299503ddad6b8bc3777a54b5'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2021.01.03'
+devenv_ytdl_version: '2021.01.16'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.03/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.03/youtube-dl.sig
-  '2021.01.03': 'ed02ecd1591285ecf6645a3b9af33852b12d78b8ea5c5731b6236336d6135796'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.16/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.01.16/youtube-dl.sig
+  '2021.01.16': '8bc58a0c8a13415e83ff237a1792cf3cb0479916292e70800289fd829b722ab7'
