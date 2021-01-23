@@ -1,27 +1,27 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.19'
+devenv_awscli_version: '2.1.21'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.19.zip.sig
-  '2.1.19': '36fd8cb2ca82bfec27a25d23643de4879a9da88be7c44f5e0628d4fe159e8c2f'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.21.zip.sig
+  '2.1.21': '1ce4510016491e82199de61d4e01847de00d5735c1072a30f615066f9b55c7bf'
 
 # https://github.com/docker/compose/releases
-devenv_docker_compose_version: '1.27.4'
+devenv_docker_compose_version: '1.28.0'
 devenv_docker_compose_hash:
-  # hash: https://github.com/docker/compose/releases/download/1.27.4/docker-compose-Linux-x86_64.sha256
-  '1.27.4': '04216d65ce0cd3c27223eab035abfeb20a8bef20259398e3b9d9aa8de633286d'
+  # hash: https://github.com/docker/compose/releases/download/1.28.0/docker-compose-Linux-x86_64.sha256
+  '1.28.0': '07a5e4104ac6495603454ada9c053a79ac554f65df3ffc28e833b571f6c3e6d1'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '323.0.0'
+devenv_gcloud_version: '324.0.0'
 devenv_gcloud_hash:
-  '323.0.0': '3c7eb5b1d7a6d1111b195cc6892b1329585f0253559aa502731fd8fa31c435a9'
+  '324.0.0': 'a0e0ca200a82af311fd282dda5cdd3cd547a0154f79cc97dac6beddcca865274'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.15.6'
+devenv_golang_version: '1.15.7'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.15.6': '3918e6cc85e7eaaa6f859f1bdbaac772e7a825b0eb423c63d3ae68b21f84b844'
+  '1.15.7': '0d142143794721bb63ce6c8a6180c4062bcf8ef4715e7d6d6609f3a8282629b3'
 
 # https://github.com/helm/helm/releases
 devenv_helm_version: '3.5.0'
@@ -42,9 +42,9 @@ devenv_istioctl_hash:
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
-devenv_kind_version: '0.9.0'
+devenv_kind_version: '0.10.0'
 devenv_kind_hash:
-  '0.9.0': '35a640e0ca479192d86a51b6fd31c657403d2cf7338368d62223938771500dc8'
+  '0.10.0': '74767776488508d847b0bb941212c1cb76ace90d9439f4dee256d8a04f1309c6'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
 devenv_kubectl_version: '1.20.2'
@@ -75,11 +75,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.14.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.14.4'
+devenv_terraform_version: '0.14.5'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/0.14.4/terraform_0.14.4_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/0.14.4/terraform_0.14.4_SHA256SUMS.sig
-  '0.14.4': '042f1f4fb47696b3442eca12bce7cce6de0b477b299503ddad6b8bc3777a54b5'
+  # hash: https://releases.hashicorp.com/terraform/0.14.5/terraform_0.14.5_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.14.5/terraform_0.14.5_SHA256SUMS.sig
+  '0.14.5': '2899f47860b7752e31872e4d57b1c03c99de154f12f0fc84965e231bc50f312f'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2021.01.16'
