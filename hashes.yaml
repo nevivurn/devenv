@@ -59,10 +59,10 @@ devenv_kustomize_hash:
   '3.9.2': 'f5c76a726cbd27b74587fcd2816e86b3f6279d84043b7ed3725bf48b1bc8ca4a'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.15.4'
+devenv_nodejs_version: '14.15.5'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.15.4/SHASUMS256.txt.asc
-  '14.15.4': 'ed01043751f86bb534d8c70b16ab64c956af88fd35a9506b7e4a68f5b8243d8a'
+  # hash & sig (hash): https://nodejs.org/dist/v14.15.5/SHASUMS256.txt.asc
+  '14.15.5': 'fa198afa9a2872cde991c3aa71796894bf7b5310d6eb178c3eafcf66e3ae79a7'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.6.6'
