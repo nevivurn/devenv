@@ -10,3 +10,5 @@ if [[ -z "$DEVENV_KUSTOMIZE_SETUP" ]]; then
 	export PATH="${DEVENV_KUSTOMIZE_BIN}:${PATH}"
 fi
 export DEVENV_KUSTOMIZE_SETUP=1
+
+source <(kustomize completion bash)
