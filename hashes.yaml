@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.32'
+devenv_awscli_version: '2.1.34'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.32.zip.sig
-  '2.1.32': '21cf81bd3db818c4d2711bb4a32462e573fe5c3320db613fbd3ce4fd75493a4e'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.34.zip.sig
+  '2.1.34': 'fa0dab3ec5144c06f040d8a09fc3f63df2542c13e2fd63e639d9f976a215280e'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.28.6'
@@ -13,15 +13,15 @@ devenv_docker_compose_hash:
   '1.28.6': 'f5f7d605fa17d35a29b217557db4cbe70c1824f3061c522d3cb712bf33db3a67'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '333.0.0'
+devenv_gcloud_version: '334.0.0'
 devenv_gcloud_hash:
-  '333.0.0': '87107928d59194d85738e686607c93b273f98ef9f1dfab031e232d79afe22271'
+  '334.0.0': '8ba026255d73e8b11b8a9b6a4e7f72cbe8b08952df2739d78d6d003666a39d3d'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.16.2'
+devenv_golang_version: '1.16.3'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.16.2': '542e936b19542e62679766194364f45141fde55169db2d8d01046555ca9eb4b8'
+  '1.16.3': '951a3c7c6ce4e56ad883f97d9db74d3d6d80d5fec77455c6ada6c1f7ac4776d2'
 
 # https://github.com/helm/helm/releases
 devenv_helm_version: '3.5.3'
@@ -65,11 +65,11 @@ devenv_nodejs_hash:
   '14.16.0': '2e079cf638766fedd720d30ec8ffef5d6ceada4e8b441fc2a093cb9a865f4087'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.7.0'
+devenv_packer_version: '1.7.1'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.7.0/packer_1.7.0_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.7.0/packer_1.7.0_SHA256SUMS.sig
-  '1.7.0': '935e81c07381a964bdbaddde2d890c91d52e88b9e5375f3882840925f6a96893'
+  # hash: https://releases.hashicorp.com/packer/1.7.1/packer_1.7.1_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.7.1/packer_1.7.1_SHA256SUMS.sig
+  '1.7.1': '1afd50d8cd30290d569e07548fecfb4fe8c95994740acbc3a5b2c2246268a026'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.15.6'
@@ -82,8 +82,8 @@ devenv_terraform_hash:
   '0.14.9': '47e097cfbfb64e97492934f50e646cb84df952eb76897182557811b45603dbf0'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2021.03.25'
+devenv_ytdl_version: '2021.04.01'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.25/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.03.25/youtube-dl.sig
-  '2021.03.25': '9334117f86308b8659bbecda6ab06955da8734f975d28c39f3f2fed3f60354aa'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.01/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.01/youtube-dl.sig
+  '2021.04.01': '444e405dc29df363b36eeaa7c3a8cbb034f3c507e33c41fb27c42ed34b2f3dbc'
