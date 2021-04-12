@@ -1,21 +1,21 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.1.34'
+devenv_awscli_version: '2.1.36'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.34.zip.sig
-  '2.1.34': 'fa0dab3ec5144c06f040d8a09fc3f63df2542c13e2fd63e639d9f976a215280e'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.36.zip.sig
+  '2.1.36': 'e8404c194efbac367ce518e37a172c432478b8fbc3bb02b09f90222bb6cd9c0a'
 
 # https://github.com/docker/compose/releases
-devenv_docker_compose_version: '1.28.6'
+devenv_docker_compose_version: '1.29.0'
 devenv_docker_compose_hash:
-  # hash: https://github.com/docker/compose/releases/download/1.28.6/docker-compose-Linux-x86_64.sha256
-  '1.28.6': 'f5f7d605fa17d35a29b217557db4cbe70c1824f3061c522d3cb712bf33db3a67'
+  # hash: https://github.com/docker/compose/releases/download/1.29.0/docker-compose-Linux-x86_64.sha256
+  '1.29.0': '65bf4d3dcc5ea5dcd4644434271879a2b47e98bcfa6ca958523079c17e5adb5c'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '334.0.0'
+devenv_gcloud_version: '335.0.0'
 devenv_gcloud_hash:
-  '334.0.0': '8ba026255d73e8b11b8a9b6a4e7f72cbe8b08952df2739d78d6d003666a39d3d'
+  '335.0.0': '9cc234763bc70dc383a84a1b74adacc2816be991002352423037f56150fc6b8b'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.16.3'
@@ -59,31 +59,31 @@ devenv_kustomize_hash:
   '4.0.5': '3ef93195ede4b7664b7ec65284461dd8eeb9f5404e7db5eb5bf59003085a0c98'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.16.0'
+devenv_nodejs_version: '14.16.1'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.16.0/SHASUMS256.txt.asc
-  '14.16.0': '2e079cf638766fedd720d30ec8ffef5d6ceada4e8b441fc2a093cb9a865f4087'
+  # hash & sig (hash): https://nodejs.org/dist/v14.16.1/SHASUMS256.txt.asc
+  '14.16.1': '85a89d2f68855282c87851c882d4c4bbea4cd7f888f603722f0240a6e53d89df'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.7.1'
+devenv_packer_version: '1.7.2'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.7.1/packer_1.7.1_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.7.1/packer_1.7.1_SHA256SUMS.sig
-  '1.7.1': '1afd50d8cd30290d569e07548fecfb4fe8c95994740acbc3a5b2c2246268a026'
+  # hash: https://releases.hashicorp.com/packer/1.7.2/packer_1.7.2_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.7.2/packer_1.7.2_SHA256SUMS.sig
+  '1.7.2': '9429c3a6f80b406dbddb9b30a4e468aeac59ab6ae4d09618c8d70c4f4188442e'
 
 # https://github.com/protocolbuffers/protobuf/releases
-devenv_protoc_version: '3.15.6'
+devenv_protoc_version: '3.15.8'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.14.9'
+devenv_terraform_version: '0.14.10'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/0.14.9/terraform_0.14.9_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/0.14.9/terraform_0.14.9_SHA256SUMS.sig
-  '0.14.9': '47e097cfbfb64e97492934f50e646cb84df952eb76897182557811b45603dbf0'
+  # hash: https://releases.hashicorp.com/terraform/0.14.10/terraform_0.14.10_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/0.14.10/terraform_0.14.10_SHA256SUMS.sig
+  '0.14.10': '45d4a12ca7b5c52983f43837d696f45c5ed9ebe536d6b44104f2edb2e1a39894'
 
 # https://github.com/ytdl-org/youtube-dl/releases
-devenv_ytdl_version: '2021.04.01'
+devenv_ytdl_version: '2021.04.07'
 devenv_ytdl_hash:
-  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.01/SHA2-256SUMS
-  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.01/youtube-dl.sig
-  '2021.04.01': '444e405dc29df363b36eeaa7c3a8cbb034f3c507e33c41fb27c42ed34b2f3dbc'
+  # hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.07/SHA2-256SUMS
+  # sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.04.07/youtube-dl.sig
+  '2021.04.07': '0c2fe4d020cd7e69c3c191df43f47c787ff1ec39e160e7696cdd1a1750dfd990'
