@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.2.9'
+devenv_awscli_version: '2.2.10'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.9.zip.sig
-  '2.2.9': 'c778f4cc55877833679fdd4ae9c94c07d0ac3794d0193da3f18cb14713af615f'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.10.zip.sig
+  '2.2.10': '796b623f83ab1a31cb959109fe2da29b79eebc05ce1af33d57ae0398df64400d'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.29.2'
@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.29.2': 'f3f10cf3dbb8107e9ba2ea5f23c1d2159ff7321d16f0a23051d68d8e2547b323'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '343.0.0'
+devenv_gcloud_version: '344.0.0'
 devenv_gcloud_hash:
-  '343.0.0': 'a3a965b6f27f55471d4a43cf010a002ed41ae22c7cc8287353c023cc05a687d0'
+  '344.0.0': '52bcdb2ab766587f510c08d4f55dd239c2eb6a900ab31ee8683624e42f2372b6'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.16.5'
@@ -72,14 +72,14 @@ devenv_packer_hash:
   '1.7.2': '9429c3a6f80b406dbddb9b30a4e468aeac59ab6ae4d09618c8d70c4f4188442e'
 
 # https://github.com/protocolbuffers/protobuf/releases
-devenv_protoc_version: '3.17.2'
+devenv_protoc_version: '3.17.3'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '0.15.5'
+devenv_terraform_version: '1.0.0'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/0.15.5/terraform_0.15.5_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/0.15.5/terraform_0.15.5_SHA256SUMS.sig
-  '0.15.5': '3b144499e08c245a8039027eb2b84c0495e119f57d79e8fb605864bb48897a7d'
+  # hash: https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_SHA256SUMS.sig
+  '1.0.0': '8be33cc3be8089019d95eb8f546f35d41926e7c1e5deff15792e969dde573eb5'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2021.06.06'
