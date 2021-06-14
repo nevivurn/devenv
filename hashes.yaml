@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.2.10'
+devenv_awscli_version: '2.2.11'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.10.zip.sig
-  '2.2.10': '796b623f83ab1a31cb959109fe2da29b79eebc05ce1af33d57ae0398df64400d'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.11.zip.sig
+  '2.2.11': '06507d385c668a5015b43b8f642c76ca5d865448d9408b509679fc8d5d7d6907'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.29.2'
@@ -35,10 +35,10 @@ devenv_hugo_hash:
   '0.83.1': '5b756314756935e39040bba10867a7340e791e5e87890e0318760258c43e542e'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.10.0'
+devenv_istioctl_version: '1.10.1'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.10.0/istio-1.10.0-linux-amd64.tar.gz.sha256
-  '1.10.0': '1d00a2ea0cb7608ce2266fc65572ac9316978b01c0c2c8dd8c65efcb63f5fe97'
+  # hash: https://github.com/istio/istio/releases/download/1.10.1/istio-1.10.1-linux-amd64.tar.gz.sha256
+  '1.10.1': 'f7da085b39bfde4a635a48656c69cbf83031ab115a8f55166ee4cb60a710fa58'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
