@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.2.11'
+devenv_awscli_version: '2.2.14'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.11.zip.sig
-  '2.2.11': '06507d385c668a5015b43b8f642c76ca5d865448d9408b509679fc8d5d7d6907'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.14.zip.sig
+  '2.2.14': '03b06030ced6970148b2c3e82c1c3461654c71b2d37cb9634ff771ef607aec98'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.29.2'
@@ -13,9 +13,9 @@ devenv_docker_compose_hash:
   '1.29.2': 'f3f10cf3dbb8107e9ba2ea5f23c1d2159ff7321d16f0a23051d68d8e2547b323'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '344.0.0'
+devenv_gcloud_version: '346.0.0'
 devenv_gcloud_hash:
-  '344.0.0': '52bcdb2ab766587f510c08d4f55dd239c2eb6a900ab31ee8683624e42f2372b6'
+  '346.0.0': '9d21569ecd66e4278c45594e3ce10fcb2591704756aeb2b0f04bed14f86f9658'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.16.5'
@@ -24,21 +24,21 @@ devenv_golang_hash:
   '1.16.5': 'b12c23023b68de22f74c0524f10b753e7b08b1504cb7e417eccebdd3fae49061'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.6.0'
+devenv_helm_version: '3.6.1'
 devenv_helm_hash:
-  '3.6.0': '0a9c80b0f211791d6a9d36022abd0d6fd125139abe6d1dcf4c5bf3bc9dcec9c8'
+  '3.6.1': 'c64f2c7b1d00c5328b164cea4bbd5e0752c103193037173c9eadea9d6a57eddb'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.83.1'
+devenv_hugo_version: '0.84.2'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_checksums.txt
-  '0.83.1': '5b756314756935e39040bba10867a7340e791e5e87890e0318760258c43e542e'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.84.2/hugo_0.84.2_checksums.txt
+  '0.84.2': 'de0e3002c6d99ee4d860f1a410c7da0317abfed2442c434d8a37f03d6af3fb64'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.10.1'
+devenv_istioctl_version: '1.10.2'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.10.1/istio-1.10.1-linux-amd64.tar.gz.sha256
-  '1.10.1': 'f7da085b39bfde4a635a48656c69cbf83031ab115a8f55166ee4cb60a710fa58'
+  # hash: https://github.com/istio/istio/releases/download/1.10.2/istio-1.10.2-linux-amd64.tar.gz.sha256
+  '1.10.2': '23eaa80a0c3edc8271fe82443b33958437c6c5a62f28bc1b7d04a71e416010a4'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -47,10 +47,10 @@ devenv_kind_hash:
   '0.11.1': '949f81b3c30ca03a3d4effdecda04f100fa3edc07a28b19400f72ede7c5f0491'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.21.1'
+devenv_kubectl_version: '1.21.2'
 devenv_kubectl_hash:
-  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.21.1/bin/linux/amd64/kubectl.sha256
-  '1.21.1': '58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233'
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.21.2/bin/linux/amd64/kubectl.sha256
+  '1.21.2': '55b982527d76934c2f119e70bf0d69831d3af4985f72bb87cd4924b1c7d528da'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
 devenv_kustomize_version: '4.1.3'
@@ -59,27 +59,27 @@ devenv_kustomize_hash:
   '4.1.3': 'f028cd2b675d215572d54634311777aa475eb5612fb8a70d84b957c4a27a861e'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.17.0'
+devenv_nodejs_version: '14.17.1'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.17.0/SHASUMS256.txt.asc
-  '14.17.0': '494b161759a3d19c70e3172d33ce1918dd8df9ad20d29d1652a8387a84e2d308'
+  # hash & sig (hash): https://nodejs.org/dist/v14.17.1/SHASUMS256.txt.asc
+  '14.17.1': '2921eba80c839e06d68b60b27fbbcbc7822df437f3f8d58717ec5a7703563ba4'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.7.2'
+devenv_packer_version: '1.7.3'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.7.2/packer_1.7.2_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.7.2/packer_1.7.2_SHA256SUMS.sig
-  '1.7.2': '9429c3a6f80b406dbddb9b30a4e468aeac59ab6ae4d09618c8d70c4f4188442e'
+  # hash: https://releases.hashicorp.com/packer/1.7.3/packer_1.7.3_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.7.3/packer_1.7.3_SHA256SUMS.sig
+  '1.7.3': '1a8719f0797e9e45abd98d2eb38099b09e5566ec212453052d2f21facc990c73'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.17.3'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.0.0'
+devenv_terraform_version: '1.0.1'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_SHA256SUMS.sig
-  '1.0.0': '8be33cc3be8089019d95eb8f546f35d41926e7c1e5deff15792e969dde573eb5'
+  # hash: https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_SHA256SUMS.sig
+  '1.0.1': 'da94657593636c8d35a96e4041136435ff58bb0061245b7d0f82db4a7728cef3'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2021.06.06'
