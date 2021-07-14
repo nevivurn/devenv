@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.2.14'
+devenv_awscli_version: '2.2.18'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.14.zip.sig
-  '2.2.14': '03b06030ced6970148b2c3e82c1c3461654c71b2d37cb9634ff771ef607aec98'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.18.zip.sig
+  '2.2.18': '65033883e467632abdcc9918d2ad1d8328049cb260ac1dc52ed4bdf168efa514'
 
 # https://github.com/docker/compose/releases
 devenv_docker_compose_version: '1.29.2'
@@ -13,26 +13,26 @@ devenv_docker_compose_hash:
   '1.29.2': 'f3f10cf3dbb8107e9ba2ea5f23c1d2159ff7321d16f0a23051d68d8e2547b323'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '346.0.0'
+devenv_gcloud_version: '348.0.0'
 devenv_gcloud_hash:
-  '346.0.0': '9d21569ecd66e4278c45594e3ce10fcb2591704756aeb2b0f04bed14f86f9658'
+  '348.0.0': '8341a9b21088fd382522be247c7e51c61d8ea4ff86e6ededfa601afd5223e153'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.16.5'
+devenv_golang_version: '1.16.6'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.16.5': 'b12c23023b68de22f74c0524f10b753e7b08b1504cb7e417eccebdd3fae49061'
+  '1.16.6': 'be333ef18b3016e9d7cb7b1ff1fdb0cac800ca0be4cf2290fe613b3d069dfe0d'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.6.1'
+devenv_helm_version: '3.6.2'
 devenv_helm_hash:
-  '3.6.1': 'c64f2c7b1d00c5328b164cea4bbd5e0752c103193037173c9eadea9d6a57eddb'
+  '3.6.2': 'f3a4be96b8a3b61b14eec1a35072e1d6e695352e7a08751775abf77861a0bf54'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.84.2'
+devenv_hugo_version: '0.85.0'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.84.2/hugo_0.84.2_checksums.txt
-  '0.84.2': 'de0e3002c6d99ee4d860f1a410c7da0317abfed2442c434d8a37f03d6af3fb64'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_checksums.txt
+  '0.85.0': 'e32e09271cb18d8c4bcf06539f6eadc34d0b8b68fcc0268a4aedff470a16935a'
 
 # https://github.com/istio/istio/releases
 devenv_istioctl_version: '1.10.2'
@@ -53,16 +53,16 @@ devenv_kubectl_hash:
   '1.21.2': '55b982527d76934c2f119e70bf0d69831d3af4985f72bb87cd4924b1c7d528da'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '4.1.3'
+devenv_kustomize_version: '4.2.0'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.3/checksums.txt
-  '4.1.3': 'f028cd2b675d215572d54634311777aa475eb5612fb8a70d84b957c4a27a861e'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.2.0/checksums.txt
+  '4.2.0': '220dd03dcda8e45dc50e4e42b2d71882cbc4c05e0ed863513e67930ecad939eb'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.17.1'
+devenv_nodejs_version: '14.17.3'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.17.1/SHASUMS256.txt.asc
-  '14.17.1': '2921eba80c839e06d68b60b27fbbcbc7822df437f3f8d58717ec5a7703563ba4'
+  # hash & sig (hash): https://nodejs.org/dist/v14.17.3/SHASUMS256.txt.asc
+  '14.17.3': 'd659d78144042a1801f35dd611d0fab137e841cde902b2c6a821163a5e36f105'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.7.3'
@@ -75,11 +75,11 @@ devenv_packer_hash:
 devenv_protoc_version: '3.17.3'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.0.1'
+devenv_terraform_version: '1.0.2'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_SHA256SUMS.sig
-  '1.0.1': 'da94657593636c8d35a96e4041136435ff58bb0061245b7d0f82db4a7728cef3'
+  # hash: https://releases.hashicorp.com/terraform/1.0.2/terraform_1.0.2_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.0.2/terraform_1.0.2_SHA256SUMS.sig
+  '1.0.2': '7329f887cc5a5bda4bedaec59c439a4af7ea0465f83e3c1b0f4d04951e1181f4'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2021.06.06'
