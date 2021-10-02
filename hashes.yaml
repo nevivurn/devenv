@@ -7,9 +7,9 @@ devenv_awscli_hash:
   '2.2.41': 'ff4eacf53e9477c4a47bc700db254250317c9065c9cac53b7cc9f1acd792edad'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '358.0.0'
+devenv_gcloud_version: '359.0.0'
 devenv_gcloud_hash:
-  '358.0.0': 'a617718d7284e8198e866a93b85e62f16d5662be6ac3a887f9c72f7f33cb823b'
+  '359.0.0': 'b84828fbd7c2c842edf3df4d514f01f7b6a9e587fa5b563b0f1dde4587574b1b'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.17.1'
@@ -47,33 +47,33 @@ devenv_kubectl_hash:
   '1.21.3': '631246194fc1931cb897d61e1d542ef2321ec97adcb859a405d3b285ad9dd3d6'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '4.3.0'
+devenv_kustomize_version: '4.4.0'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.3.0/checksums.txt
-  '4.3.0': 'd34818d2b5d52c2688bce0e10f7965aea1a362611c4f1ddafd95c4d90cb63319'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.4.0/checksums.txt
+  '4.4.0': 'bf3a0d7409d9ce6a4a393ba61289047b4cb875a36ece1ec94b36924a9ccbaa0f'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '14.17.6'
+devenv_nodejs_version: '14.18.0'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v14.17.6/SHASUMS256.txt.asc
-  '14.17.6': '3bbe4faf356738d88b45be222bf5e858330541ff16bd0d4cfad36540c331461b'
+  # hash & sig (hash): https://nodejs.org/dist/v14.18.0/SHASUMS256.txt.asc
+  '14.18.0': '5c0bc18b19fd09ff80beb16772e69cb033ee4992a4ccd35bd884fd8f02e6d1ec'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.7.5'
+devenv_packer_version: '1.7.6'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.7.5/packer_1.7.5_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.7.5/packer_1.7.5_SHA256SUMS.sig
-  '1.7.5': 'a574d20719e86d9d38854050184b78d158e62619b2a4b33b79d03b94c782dbc5'
+  # hash: https://releases.hashicorp.com/packer/1.7.6/packer_1.7.6_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.7.6/packer_1.7.6_SHA256SUMS.sig
+  '1.7.6': 'd2717af4d728cd9034c7a3bb2c6eac384d772bae78d856413b14742a0ca28a1c'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.18.0'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.0.7'
+devenv_terraform_version: '1.0.8'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.0.7/terraform_1.0.7_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.0.7/terraform_1.0.7_SHA256SUMS.sig
-  '1.0.7': 'bc79e47649e2529049a356f9e60e06b47462bf6743534a10a4c16594f443be7b'
+  # hash: https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_SHA256SUMS.sig
+  '1.0.8': 'a73459d406067ce40a46f026dce610740d368c3b4a3d96591b10c7a577984c2e'
 
 # https://github.com/ytdl-org/youtube-dl/releases
 devenv_ytdl_version: '2021.06.06'
