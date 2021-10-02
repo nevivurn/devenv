@@ -6,7 +6,6 @@
     - 'hashes.yaml'
   roles:
     - 'awscli'
-    - 'docker-compose'
     - 'gcloud'
     - 'golang'
     - 'helm'

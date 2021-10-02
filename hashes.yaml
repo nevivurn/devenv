@@ -6,12 +6,6 @@ devenv_awscli_hash:
   # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.41.zip.sig
   '2.2.41': 'ff4eacf53e9477c4a47bc700db254250317c9065c9cac53b7cc9f1acd792edad'
 
-# https://github.com/docker/compose/releases
-devenv_docker_compose_version: '1.29.2'
-devenv_docker_compose_hash:
-  # hash: https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64.sha256
-  '1.29.2': 'f3f10cf3dbb8107e9ba2ea5f23c1d2159ff7321d16f0a23051d68d8e2547b323'
-
 # https://cloud.google.com/sdk/docs/install
 devenv_gcloud_version: '358.0.0'
 devenv_gcloud_hash:
