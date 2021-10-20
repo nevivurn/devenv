@@ -9,7 +9,7 @@
     state: 'directory'
 - name: 'Download ytdl'
   get_url:
-    url: 'https://github.com/ytdl-org/youtube-dl/releases/download/{{ devenv_ytdl_version }}/youtube-dl'
+    url: 'https://github.com/yt-dlp/yt-dlp/releases/download/{{ devenv_ytdl_version }}/yt-dlp'
     dest: '{{ devenv_root }}/ytdl/ytdl_{{ devenv_ytdl_version }}'
     checksum: 'sha256:{{ devenv_ytdl_hash[devenv_ytdl_version] }}'
     mode: 0755
