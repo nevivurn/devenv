@@ -1,21 +1,21 @@
 # TODO: automatically generate this file
 ---
-# https://github.com/aws/aws-cli/releases
-devenv_awscli_version: '2.3.2'
+# https://github.com/aws/aws-cli/tags
+devenv_awscli_version: '2.3.6'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.3.2.zip.sig
-  '2.3.2': '4a32a5f6e072c7cbdc0d9cd67171061d37fa3c8bd44c4f8fc945309581094a2c'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.3.6.zip.sig
+  '2.3.6': '5cc8a9177f3966b159f2903ce9fb6c71cfeacd603ccc006ded16a42605cc728b'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '362.0.0'
+devenv_gcloud_version: '364.0.0'
 devenv_gcloud_hash:
-  '362.0.0': '15cb05b2b3a63d657b7303343e46980b37041a94048055009328ee24e3ae3efc'
+  '364.0.0': '9491beb0ae3a7f95aad5f9c7ba1b3776e496dfb7e8d629afdff582a671303045'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.17.2'
+devenv_golang_version: '1.17.3'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.17.2': 'f242a9db6a0ad1846de7b6d94d507915d14062660616a61ef7c808a76e4f1676'
+  '1.17.3': '550f9845451c0c94be679faf116291e7807a8d78b43149f9506c1b15eb89008c'
 
 # https://github.com/helm/helm/releases
 devenv_helm_version: '3.7.1'
@@ -23,10 +23,10 @@ devenv_helm_hash:
   '3.7.1': '6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.88.1'
+devenv_hugo_version: '0.89.2'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_checksums.txt
-  '0.88.1': '80cbb0b12a03838a1f053849c9d3accad1f328a8ea824294d57f9a0c6f89620b'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.89.2/hugo_0.89.2_checksums.txt
+  '0.89.2': '541467720a7af3a98deb5cd66dac2dc2a8452edea133bd8d7e8e5f937a375229'
 
 # https://github.com/istio/istio/releases
 devenv_istioctl_version: '1.10.3'
@@ -47,10 +47,10 @@ devenv_kubectl_hash:
   '1.21.3': '631246194fc1931cb897d61e1d542ef2321ec97adcb859a405d3b285ad9dd3d6'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '4.4.0'
+devenv_kustomize_version: '4.4.1'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.4.0/checksums.txt
-  '4.4.0': 'bf3a0d7409d9ce6a4a393ba61289047b4cb875a36ece1ec94b36924a9ccbaa0f'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.4.1/checksums.txt
+  '4.4.1': '2d5927efec40ba32a121c49f6df9955b8b8a296ef1dec4515a46fc84df158798'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '16.13.0'
@@ -69,14 +69,14 @@ devenv_packer_hash:
 devenv_protoc_version: '3.19.1'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.0.10'
+devenv_terraform_version: '1.0.11'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.0.10/terraform_1.0.10_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.0.10/terraform_1.0.10_SHA256SUMS.sig
-  '1.0.10': 'a221682fcc9cbd7fde22f305ead99b3ad49d8303f152e118edda086a2807716d'
+  # hash: https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_SHA256SUMS.sig
+  '1.0.11': 'eeb46091a42dc303c3a3c300640c7774ab25cbee5083dafa5fd83b54c8aca664'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2021.10.22'
+devenv_ytdl_version: '2021.11.10.1'
 devenv_ytdl_hash:
   # From youtube-dl
   ## hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/SHA2-256SUMS
@@ -84,5 +84,5 @@ devenv_ytdl_hash:
   #'2021.06.06': 'c4a3558ba57d4dd6bd49e604e52db370ab3db7a6a91bb366c6863f5f48f951c3'
 
   # From yt-dlp
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.10.22/SHA2-256SUMS
-  '2021.10.22': 'a8777f1a405db3340530470a0bf472eadd0d0fb2d25c635f4968137644b82f42'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.11.10.1/SHA2-256SUMS
+  '2021.11.10.1': 'de8bb8ce8905af4b6574f2c20edfba954fed2c84b2151ce503a75d6d743d6108'
