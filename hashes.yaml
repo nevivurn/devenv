@@ -1,38 +1,38 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.3.6'
+devenv_awscli_version: '2.4.6'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.3.6.zip.sig
-  '2.3.6': '5cc8a9177f3966b159f2903ce9fb6c71cfeacd603ccc006ded16a42605cc728b'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.6.zip.sig
+  '2.4.6': '150e93a612564c0188a7b953661b44425aa94a28cd73dc393f3639d0a6039add'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '364.0.0'
+devenv_gcloud_version: '366.0.0'
 devenv_gcloud_hash:
-  '364.0.0': '9491beb0ae3a7f95aad5f9c7ba1b3776e496dfb7e8d629afdff582a671303045'
+  '366.0.0': 'bc5bf6e596d33be845e4edec2e9dd0e4cd5724674c0f0ad9c8e6e0352e47405f'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.17.3'
+devenv_golang_version: '1.17.5'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.17.3': '550f9845451c0c94be679faf116291e7807a8d78b43149f9506c1b15eb89008c'
+  '1.17.5': 'bd78114b0d441b029c8fe0341f4910370925a4d270a6a590668840675b0c653e'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.7.1'
+devenv_helm_version: '3.7.2'
 devenv_helm_hash:
-  '3.7.1': '6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4'
+  '3.7.2': '4ae30e48966aba5f807a4e140dad6736ee1a392940101e4d79ffb4ee86200a9e'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.89.2'
+devenv_hugo_version: '0.90.0'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.89.2/hugo_0.89.2_checksums.txt
-  '0.89.2': '541467720a7af3a98deb5cd66dac2dc2a8452edea133bd8d7e8e5f937a375229'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.90.0/hugo_0.90.0_checksums.txt
+  '0.90.0': '3720af3612622fcc2ade160845d0b10fa731c6db08caa404d1ef05930b65777c'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.10.3'
+devenv_istioctl_version: '1.12.1'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.10.3/istio-1.10.3-linux-amd64.tar.gz.sha256
-  '1.10.3': 'c0d557f86e0fd7686d60790f3f6cb10042eb0e2a7419dc97fc0010bd5c7d509b'
+  # hash: https://github.com/istio/istio/releases/download/1.12.1/istio-1.12.1-linux-amd64.tar.gz.sha256
+  '1.12.1': '7b1279810a77590bd7af60d6d26074a89c32e6aff7512fdc37f38b093e34e382'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -53,10 +53,10 @@ devenv_kustomize_hash:
   '4.4.1': '2d5927efec40ba32a121c49f6df9955b8b8a296ef1dec4515a46fc84df158798'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '16.13.0'
+devenv_nodejs_version: '16.13.1'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v16.13.0/SHASUMS256.txt.asc
-  '16.13.0': 'a876ce787133149abd1696afa54b0b5bc5ce3d5ae359081d407ff776e39b7ba8'
+  # hash & sig (hash): https://nodejs.org/dist/v16.13.1/SHASUMS256.txt.asc
+  '16.13.1': 'a3721f87cecc0b52b0be8587c20776ac7305db413751db02c55aa2bffac15198'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.7.8'
@@ -69,14 +69,14 @@ devenv_packer_hash:
 devenv_protoc_version: '3.19.1'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.0.11'
+devenv_terraform_version: '1.1.0'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_SHA256SUMS.sig
-  '1.0.11': 'eeb46091a42dc303c3a3c300640c7774ab25cbee5083dafa5fd83b54c8aca664'
+  # hash: https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_SHA256SUMS.sig
+  '1.1.0': '763378aa75500ce5ba67d0cba8aa605670cd28bf8bafc709333a30908441acb5'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2021.11.10.1'
+devenv_ytdl_version: '2021.12.01'
 devenv_ytdl_hash:
   # From youtube-dl
   ## hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/SHA2-256SUMS
@@ -84,5 +84,5 @@ devenv_ytdl_hash:
   #'2021.06.06': 'c4a3558ba57d4dd6bd49e604e52db370ab3db7a6a91bb366c6863f5f48f951c3'
 
   # From yt-dlp
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.11.10.1/SHA2-256SUMS
-  '2021.11.10.1': 'de8bb8ce8905af4b6574f2c20edfba954fed2c84b2151ce503a75d6d743d6108'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.12.01/SHA2-256SUMS
+  '2021.12.01': '5c37c8f9aaf8cc12faea034de96deb5794b7177f071425ce69dad3f315335559'
