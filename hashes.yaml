@@ -76,7 +76,7 @@ devenv_terraform_hash:
   '1.1.2': '734efa82e2d0d3df8f239ce17f7370dabd38e535d21e64d35c73e45f35dfa95c'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2021.12.01'
+devenv_ytdl_version: '2021.12.27'
 devenv_ytdl_hash:
   # From youtube-dl
   ## hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/SHA2-256SUMS
@@ -84,5 +84,5 @@ devenv_ytdl_hash:
   #'2021.06.06': 'c4a3558ba57d4dd6bd49e604e52db370ab3db7a6a91bb366c6863f5f48f951c3'
 
   # From yt-dlp
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.12.01/SHA2-256SUMS
-  '2021.12.01': '5c37c8f9aaf8cc12faea034de96deb5794b7177f071425ce69dad3f315335559'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.12.27/SHA2-256SUMS
+  '2021.12.27': '254289d79a896b828720e3120bbdd00e48546009cfabbe5d86fa4bb9f9e77d48'
