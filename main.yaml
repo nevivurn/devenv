@@ -19,5 +19,6 @@
     - 'packer'
     - 'protoc'
     - 'rust'
+    - 'talosctl'
     - 'terraform'
     - 'ytdl'

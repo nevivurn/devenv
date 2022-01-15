@@ -68,6 +68,12 @@ devenv_packer_hash:
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.19.1'
 
+# https://github.com/talos-systems/talos/releases
+devenv_talosctl_version: '0.14.0'
+devenv_talosctl_hash:
+  # hash: https://github.com/talos-systems/talos/releases/download/v0.14.0/sha256sum.txt
+  '0.14.0': 'acf5abed180dabbc8ad9e7c42c1ddc3e71168ed43466e8d6a973db005455b985'
+
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '1.1.2'
 devenv_terraform_hash:

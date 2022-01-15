@@ -1,0 +1,24 @@
+---
+- name: 'Ensure talosctl directory'
+  file:
+    path: '{{ devenv_root }}/talosctl'
+    state: 'directory'
+- name: 'Ensure talosctl current directory'
+  file:
+    path: '{{ devenv_root }}/talosctl/current'
+    state: 'directory'
+- name: 'Download talosctl'
+  get_url:
+    url: 'https://github.com/talos-systems/talos/releases/download/v{{ devenv_talosctl_version }}/talosctl-linux-amd64'
+    dest: '{{ devenv_root }}/talosctl/talosctl_{{ devenv_talosctl_version }}'
+    checksum: 'sha256:{{ devenv_talosctl_hash[devenv_talosctl_version] }}'
+    mode: 0755
+- name: 'Ensure talosctl envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_talosctl.sh'
+- name: 'Update current talosctl'
+  file:
+    src: '../talosctl_{{ devenv_talosctl_version }}'
+    path: '{{ devenv_root }}/talosctl/current/talosctl'
+    state: 'link'
