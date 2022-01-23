@@ -11,4 +11,4 @@ if [[ -z "$DEVENV_TALOSCTL_SETUP" ]]; then
 fi
 export DEVENV_TALOSCTL_SETUP=1
 
-#source <(talosctl completion bash)
+source <(talosctl completion bash)
