@@ -1,15 +1,15 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.4.11'
+devenv_awscli_version: '2.4.13'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.11.zip.sig
-  '2.4.11': 'a6465f123a58caef3be32d3c9165078058d225fa2e9576764928c881565c2fff'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.13.zip.sig
+  '2.4.13': '1aa6e72c075d2d605ad4ff51b76e12ec52f0c06b80710523ac0aa4673026e5b1'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '368.0.0'
+devenv_gcloud_version: '369.0.0'
 devenv_gcloud_hash:
-  '368.0.0': 'd5439713a07c3c31484b781b270bfe1ae60aa4d053fa78b6af6cdd319938305f'
+  '369.0.0': 'b5a60ea86c14452580e2019d33586ab2d5dbcde375870d0a030e6b73e7c06093'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.17.6'
@@ -29,10 +29,10 @@ devenv_hugo_hash:
   '0.92.0': '5305401d4618a18d06ea5e21913c4be55b279a8dacc69e3add36a9bb9b11cb4d'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.12.1'
+devenv_istioctl_version: '1.12.2'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.12.1/istio-1.12.1-linux-amd64.tar.gz.sha256
-  '1.12.1': '7b1279810a77590bd7af60d6d26074a89c32e6aff7512fdc37f38b093e34e382'
+  # hash: https://github.com/istio/istio/releases/download/1.12.2/istio-1.12.2-linux-amd64.tar.gz.sha256
+  '1.12.2': 'a115ad51c7a88684781078fbded6e62aa445ddbf274a768ce5e9e8041f284d31'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -59,30 +59,30 @@ devenv_nodejs_hash:
   '16.13.2': '7f5e9a42d6e86147867d35643c7b1680c27ccd45db85666fc52798ead5e74421'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.7.8'
+devenv_packer_version: '1.7.9'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.7.8/packer_1.7.8_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.7.8/packer_1.7.8_SHA256SUMS.sig
-  '1.7.8': '8a94b84542d21b8785847f4cccc8a6da4c7be5e16d4b1a2d0a5f7ec5532faec0'
+  # hash: https://releases.hashicorp.com/packer/1.7.9/packer_1.7.9_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.7.9/packer_1.7.9_SHA256SUMS.sig
+  '1.7.9': 'f89ed2e5f2becd391c7f0a9e51b79f3ea8a47fc4b486f1f54c3087e291d3f111'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.19.3'
 
 # https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '0.14.0'
+devenv_talosctl_version: '0.14.1'
 devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v0.14.0/sha256sum.txt
-  '0.14.0': 'acf5abed180dabbc8ad9e7c42c1ddc3e71168ed43466e8d6a973db005455b985'
+  # hash: https://github.com/talos-systems/talos/releases/download/v0.14.1/sha256sum.txt
+  '0.14.1': '29fa0563ed028813b5f108bb8b26c5293f1a8e47131678d0bef753735b0e0445'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.1.3'
+devenv_terraform_version: '1.1.4'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.1.3/terraform_1.1.3_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.1.3/terraform_1.1.3_SHA256SUMS.sig
-  '1.1.3': 'b215de2a18947fff41803716b1829a3c462c4f009b687c2cbdb52ceb51157c2f'
+  # hash: https://releases.hashicorp.com/terraform/1.1.4/terraform_1.1.4_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.1.4/terraform_1.1.4_SHA256SUMS.sig
+  '1.1.4': 'fca028d622f82788fdc35c1349e78d69ff07c7bb68c27d12f8b48c420e3ecdfb'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2021.12.27'
+devenv_ytdl_version: '2022.01.21'
 devenv_ytdl_hash:
   # From youtube-dl
   ## hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/SHA2-256SUMS
@@ -90,5 +90,5 @@ devenv_ytdl_hash:
   #'2021.06.06': 'c4a3558ba57d4dd6bd49e604e52db370ab3db7a6a91bb366c6863f5f48f951c3'
 
   # From yt-dlp
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2021.12.27/SHA2-256SUMS
-  '2021.12.27': '254289d79a896b828720e3120bbdd00e48546009cfabbe5d86fa4bb9f9e77d48'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.01.21/SHA2-256SUMS
+  '2022.01.21': 'b0ad39841b1de2e608336d430958102fed4f2cbe5976690aed71b0c81d949fca'
