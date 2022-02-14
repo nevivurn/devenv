@@ -1,21 +1,21 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.4.16'
+devenv_awscli_version: '2.4.18'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.16.zip.sig
-  '2.4.16': '00e38576f8ea0f2271e84a11bfe52208616ee3794046032e4ab4df45b7d7e862'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.18.zip.sig
+  '2.4.18': '2e3324821e5e8f3be6dc52dc8ed07be9c8b2c13da9016b349ebe211d78989509'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '371.0.0'
+devenv_gcloud_version: '372.0.0'
 devenv_gcloud_hash:
-  '371.0.0': '5691a6e3a762b937fe07cca30e9a37bc26c62016ea395e42dbd7bb72512d8e44'
+  '372.0.0': '4481654d54977bc0d33d745710f1001924d7a4fc85d226423d8e3557276d674f'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.17.6'
+devenv_golang_version: '1.17.7'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.17.6': '231654bbf2dab3d86c1619ce799e77b03d96f9b50770297c8f4dff8836fc8ca2'
+  '1.17.7': '02b111284bedbfa35a7e5b74a06082d18632eff824fd144312f6063943d49259'
 
 # https://github.com/helm/helm/releases
 devenv_helm_version: '3.8.0'
@@ -23,16 +23,16 @@ devenv_helm_hash:
   '3.8.0': '8408c91e846c5b9ba15eb6b1a5a79fc22dd4d33ac6ea63388e5698d1b2320c8b'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.92.1'
+devenv_hugo_version: '0.92.2'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_0.92.1_checksums.txt
-  '0.92.1': '8368f13403b176d79fa7196b557a91e77246f16f3073e0826af90a42933e8d6e'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.92.2/hugo_0.92.2_checksums.txt
+  '0.92.2': 'eda04c0497f7d2dae55da51a3fb5bbfc7d0a0dd8032cdee9093252aa6d566527'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.12.2'
+devenv_istioctl_version: '1.12.3'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.12.2/istio-1.12.2-linux-amd64.tar.gz.sha256
-  '1.12.2': 'a115ad51c7a88684781078fbded6e62aa445ddbf274a768ce5e9e8041f284d31'
+  # hash: https://github.com/istio/istio/releases/download/1.12.3/istio-1.12.3-linux-amd64.tar.gz.sha256
+  '1.12.3': 'ec0f4882567db745c3e4195e52ddfa22cb60a5413a86b0dfcb702218d8a1a6b8'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -47,16 +47,16 @@ devenv_kubectl_hash:
   '1.21.3': '631246194fc1931cb897d61e1d542ef2321ec97adcb859a405d3b285ad9dd3d6'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '4.5.1'
+devenv_kustomize_version: '4.5.2'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.1/checksums.txt
-  '4.5.1': 'cc26e18e814fd162dacd5e2a1357aa133fb91589e23a15ccc8b7c163fd259c54'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.2/checksums.txt
+  '4.5.2': 'c4215332da8da16ddeb88e218d8dceb76c85b366a5c58d012bc5ece904bf2fd0'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '16.13.2'
+devenv_nodejs_version: '16.14.0'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v16.13.2/SHASUMS256.txt.asc
-  '16.13.2': '7f5e9a42d6e86147867d35643c7b1680c27ccd45db85666fc52798ead5e74421'
+  # hash & sig (hash): https://nodejs.org/dist/v16.14.0/SHASUMS256.txt.asc
+  '16.14.0': '0570b9354959f651b814e56a4ce98d4a067bf2385b9a0e6be075739bc65b0fae'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.7.10'
@@ -69,10 +69,10 @@ devenv_packer_hash:
 devenv_protoc_version: '3.19.4'
 
 # https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '0.14.1'
+devenv_talosctl_version: '0.14.2'
 devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v0.14.1/sha256sum.txt
-  '0.14.1': '29fa0563ed028813b5f108bb8b26c5293f1a8e47131678d0bef753735b0e0445'
+  # hash: https://github.com/talos-systems/talos/releases/download/v0.14.2/sha256sum.txt
+  '0.14.2': 'e67fe5058fc8a64ade9f084adca632fbb08a32db437e3c412a6b0106d5b4e5f8'
 
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '1.1.5'
