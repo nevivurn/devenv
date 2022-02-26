@@ -18,6 +18,7 @@
     - 'nodejs'
     - 'packer'
     - 'protoc'
+    - 'restic'
     - 'rust'
     - 'talosctl'
     - 'terraform'

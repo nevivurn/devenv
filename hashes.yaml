@@ -68,6 +68,13 @@ devenv_packer_hash:
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '3.19.4'
 
+# https://github.com/restic/restic/releases
+devenv_restic_version: '0.12.1'
+devenv_restic_hash:
+  # hash: https://github.com/restic/restic/releases/download/v0.12.1/SHA256SUMS
+  # sig (hash): https://github.com/restic/restic/releases/download/v0.12.1/SHA256SUMS.asc
+  '0.12.1': '11d6ee35ec73058dae73d31d9cd17fe79661090abeb034ec6e13e3c69a4e7088'
+
 # https://github.com/talos-systems/talos/releases
 devenv_talosctl_version: '0.14.2'
 devenv_talosctl_hash:

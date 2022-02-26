@@ -1,0 +1,36 @@
+---
+- name: 'Ensure restic directory'
+  file:
+    path: '{{ devenv_root }}/restic'
+    state: 'directory'
+- name: 'Ensure restic current directory'
+  file:
+    path: '{{ devenv_root }}/restic/current'
+    state: 'directory'
+- name: 'Ensure restic version directory'
+  file:
+    path: '{{ devenv_root }}/restic/{{ devenv_restic_version }}'
+    state: 'directory'
+- name: 'Download restic'
+  get_url:
+    url: 'https://github.com/restic/restic/releases/download/v{{ devenv_restic_version }}/restic_{{ devenv_restic_version }}_linux_amd64.bz2'
+    dest: '{{ devenv_root }}/restic/restic_{{ devenv_restic_version }}.bz2'
+    checksum: 'sha256:{{ devenv_restic_hash[devenv_restic_version] }}'
+    mode: 0644
+- name: 'Unpack restic'
+  command:
+    creates: '{{ devenv_root }}/restic/restic_{{ devenv_restic_version }}'
+    cmd: bunzip2 -k '{{ devenv_root }}/restic/restic_{{ devenv_restic_version }}.bz2'
+- name: 'Set restic +x'
+  file:
+    path: '{{ devenv_root }}/restic/restic_{{ devenv_restic_version }}'
+    mode: 0755
+- name: 'Ensure restic envfile'
+  copy:
+    src: 'env.sh'
+    dest: '{{ devenv_root }}/envs/01_restic.sh'
+- name: 'Update current restic'
+  file:
+    src: '../restic_{{ devenv_restic_version }}'
+    path: '{{ devenv_root }}/restic/current/restic'
+    state: 'link'
