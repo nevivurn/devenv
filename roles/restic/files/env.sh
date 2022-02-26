@@ -10,3 +10,5 @@ if [[ -z "$DEVENV_RESTIC_SETUP" ]]; then
 	export PATH="${DEVENV_RESTIC_BIN}:${PATH}"
 fi
 export DEVENV_RESTIC_SETUP=1
+
+source <(restic generate -q --bash-completion /dev/stdout)
