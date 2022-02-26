@@ -3,7 +3,7 @@
 DEVENV_RESTIC_BIN="${DEVENV_ROOT}/restic/current"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
-	echo "[devenv/restic] restic version: $("${DEVENV_RESTIC_BIN}/restic" version --client)"
+	echo "[devenv/restic] restic version: $("${DEVENV_RESTIC_BIN}/restic" version)"
 fi
 
 if [[ -z "$DEVENV_RESTIC_SETUP" ]]; then
