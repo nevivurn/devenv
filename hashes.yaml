@@ -1,15 +1,15 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.4.18'
+devenv_awscli_version: '2.4.21'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.18.zip.sig
-  '2.4.18': '2e3324821e5e8f3be6dc52dc8ed07be9c8b2c13da9016b349ebe211d78989509'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.21.zip.sig
+  '2.4.21': '5f54bd200306a245452cbe3912b5283e564f0b3c79f753508e690f793ba34b5a'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '372.0.0'
+devenv_gcloud_version: '374.0.0'
 devenv_gcloud_hash:
-  '372.0.0': '4481654d54977bc0d33d745710f1001924d7a4fc85d226423d8e3557276d674f'
+  '374.0.0': 'ceaa3eb7147ed061280e30322f7c78f61749b953c9450a2df2035a145f016b7e'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.17.7'
@@ -29,10 +29,10 @@ devenv_hugo_hash:
   '0.92.2': 'eda04c0497f7d2dae55da51a3fb5bbfc7d0a0dd8032cdee9093252aa6d566527'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.12.3'
+devenv_istioctl_version: '1.12.4'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.12.3/istio-1.12.3-linux-amd64.tar.gz.sha256
-  '1.12.3': 'ec0f4882567db745c3e4195e52ddfa22cb60a5413a86b0dfcb702218d8a1a6b8'
+  # hash: https://github.com/istio/istio/releases/download/1.12.4/istio-1.12.4-linux-amd64.tar.gz.sha256
+  '1.12.4': 'fc3720ccdf416b67e53ea2471243ddaf438eb0287ccef4ab3cce20be40502eaf'
 
 # https://github.com/kubernetes-sigs/kind/releases
 # hash: manual
@@ -75,11 +75,11 @@ devenv_talosctl_hash:
   '0.14.2': 'e67fe5058fc8a64ade9f084adca632fbb08a32db437e3c412a6b0106d5b4e5f8'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.1.5'
+devenv_terraform_version: '1.1.6'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.1.5/terraform_1.1.5_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.1.5/terraform_1.1.5_SHA256SUMS.sig
-  '1.1.5': '30942d5055c7151f051c8ea75481ff1dc95b2c4409dbb50196419c21168d6467'
+  # hash: https://releases.hashicorp.com/terraform/1.1.6/terraform_1.1.6_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.1.6/terraform_1.1.6_SHA256SUMS.sig
+  '1.1.6': '3e330ce4c8c0434cdd79fe04ed6f6e28e72db44c47ae50d01c342c8a2b05d331'
 
 # https://github.com/yt-dlp/yt-dlp/releases
 devenv_ytdl_version: '2022.02.04'
