@@ -1,32 +1,32 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.4.23'
+devenv_awscli_version: '2.4.27'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.23.zip.sig
-  '2.4.23': '0e7f30a4020b3c9788780e59bab62c9b1d513c2958a06adeb84c6bc4a3594293'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.4.27.zip.sig
+  '2.4.27': '0da91ce6bd05da3b35a8fff4a07c72e5ae203f311e7c427388c598cb38e82387'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '375.0.0'
+devenv_gcloud_version: '377.0.0'
 devenv_gcloud_hash:
-  '375.0.0': '3f93d42965a0311f3d7e4e9fd85cd4ef68b5133a0a7a329f0f6aa18f4c2f9fc9'
+  '377.0.0': '46d80d1fbf3ca52c606b5ce931f7ea77311b3c10df9e5677dae5ba9db85c0578'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.17.8'
+devenv_golang_version: '1.18'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.17.8': '980e65a863377e69fd9b67df9d8395fd8e93858e7a24c9f55803421e453f4f99'
+  '1.18': 'e85278e98f57cdb150fe8409e6e5df5343ecb13cebf03a5d5ff12bd55a80264f'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.8.0'
+devenv_helm_version: '3.8.1'
 devenv_helm_hash:
-  '3.8.0': '8408c91e846c5b9ba15eb6b1a5a79fc22dd4d33ac6ea63388e5698d1b2320c8b'
+  '3.8.1': 'd643f48fe28eeb47ff68a1a7a26fc5142f348d02c8bc38d699674016716f61cd'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.93.2'
+devenv_hugo_version: '0.95.0'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.93.2/hugo_0.93.2_checksums.txt
-  '0.93.2': '684f868379f4f835385442d8fbeac0dade889b876d01d541fb621f8dcf5052c7'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.95.0/hugo_0.95.0_checksums.txt
+  '0.95.0': 'a13e0ec1e251864fa27389e0db13851d374c68e69e63f6c45b07619ab33abc4d'
 
 # https://github.com/istio/istio/releases
 devenv_istioctl_version: '1.12.4'
@@ -35,10 +35,10 @@ devenv_istioctl_hash:
   '1.12.4': 'fc3720ccdf416b67e53ea2471243ddaf438eb0287ccef4ab3cce20be40502eaf'
 
 # https://github.com/kubernetes-sigs/kind/releases
-# hash: manual
-devenv_kind_version: '0.11.1'
+devenv_kind_version: '0.12.0'
 devenv_kind_hash:
-  '0.11.1': '949f81b3c30ca03a3d4effdecda04f100fa3edc07a28b19400f72ede7c5f0491'
+  # hash: https://github.com/kubernetes-sigs/kind/releases/download/v0.12.0/kind-linux-amd64.sha256sum
+  '0.12.0': 'b80624c14c807490c0944d21fdc9c3455d6cc904fad486fe236f2187ecaa5789'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
 devenv_kubectl_version: '1.21.3'
@@ -53,10 +53,10 @@ devenv_kustomize_hash:
   '4.5.2': 'c4215332da8da16ddeb88e218d8dceb76c85b366a5c58d012bc5ece904bf2fd0'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '16.14.0'
+devenv_nodejs_version: '16.14.1'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v16.14.0/SHASUMS256.txt.asc
-  '16.14.0': '0570b9354959f651b814e56a4ce98d4a067bf2385b9a0e6be075739bc65b0fae'
+  # hash & sig (hash): https://nodejs.org/dist/v16.14.1/SHASUMS256.txt.asc
+  '16.14.1': 'acaa44a1a224265b238732ce5255d91429b25654de5be70f84a382cc5b6301c2'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.8.0'
@@ -89,13 +89,7 @@ devenv_terraform_hash:
   '1.1.7': 'e4add092a54ff6febd3325d1e0c109c9e590dc6c38f8bb7f9632e4e6bcca99d4'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2022.02.04'
+devenv_ytdl_version: '2022.03.08.1'
 devenv_ytdl_hash:
-  # From youtube-dl
-  ## hash: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/SHA2-256SUMS
-  ## sig: https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl.sig
-  #'2021.06.06': 'c4a3558ba57d4dd6bd49e604e52db370ab3db7a6a91bb366c6863f5f48f951c3'
-
-  # From yt-dlp
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.02.04/SHA2-256SUMS
-  '2022.02.04': 'a16fe3b3bd474d562c4b8645579b209377b967d58d4edffe6e31dc8de81d7283'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.03.08.1/SHA2-256SUMS
+  '2022.03.08.1': '2c3dfddeddfe6e0b73dcd77db83bd9b05c5d567f156bab4b256092af07fad5b0'
