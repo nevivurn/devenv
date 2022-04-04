@@ -10,3 +10,5 @@ if [[ -z "$DEVENV_TERRAFORM_SETUP" ]]; then
 	export PATH="${DEVENV_TERRAFORM_BIN}:${PATH}"
 fi
 export DEVENV_TERRAFORM_SETUP=1
+
+complete -C "${DEVENV_TERRAFORM_BIN}/terraform" terraform
