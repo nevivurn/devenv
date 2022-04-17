@@ -9,7 +9,7 @@
     state: 'directory'
 - name: 'Download gcloud'
   get_url:
-    url: 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-{{ devenv_gcloud_version }}-linux-x86_64.tar.gz'
+    url: 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-{{ devenv_gcloud_version }}-linux-x86_64.tar.gz'
     dest: '{{ devenv_root }}/gcloud/{{ devenv_gcloud_version }}_download.zip'
     checksum: 'sha256:{{ devenv_gcloud_hash[devenv_gcloud_version] }}'
 - name: 'Unpack gcloud'
