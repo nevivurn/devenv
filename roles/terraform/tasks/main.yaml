@@ -3,6 +3,10 @@
   file:
     path: '{{ devenv_root }}/terraform'
     state: 'directory'
+- name: 'Ensure terraform cache directory'
+  file:
+    path: '{{ devenv_root }}/terraform/plugin-cache'
+    state: 'directory'
 - name: 'Ensure terraform version directory'
   file:
     path: '{{ devenv_root }}/terraform/{{ devenv_terraform_version }}'

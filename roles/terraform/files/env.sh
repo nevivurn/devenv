@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 DEVENV_TERRAFORM_BIN="${DEVENV_ROOT}/terraform/current"
+export TF_PLUGIN_CACHE_DIR="${DEVENV_ROOT}/terraform/plugin-cache"
 
 if [[ -n "${DEVENV_DEBUG}" ]]; then
 	echo "[devenv/terraform] terraform version: $("${DEVENV_TERRAFORM_BIN}/terraform" version)"
