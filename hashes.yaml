@@ -7,9 +7,9 @@ devenv_awscli_hash:
   '2.7.6': '61565e678db8b0308827295991adb89d961ecbd1d32b68fd192d707c4ba6aef0'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '388.0.0'
+devenv_gcloud_version: '389.0.0'
 devenv_gcloud_hash:
-  '388.0.0': 'c6454d75e936f0f919b44f3336daaa70b9dcf6521c7aabff1948c104942f7b53'
+  '389.0.0': '21c8b4afc383ce61c37aded4e99954fae970def22ca67c1f34ce5a0c1e528066'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.18.3'
@@ -76,10 +76,10 @@ devenv_restic_hash:
   '0.13.1': 'a7a82eca050224c9cd070fea1d4208fe92358c5942321d6e01eff84a77839fb8'
 
 # https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '1.0.5'
+devenv_talosctl_version: '1.0.6'
 devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v1.0.5/sha256sum.txt
-  '1.0.5': '300eb0663fdf1826dd34cb0a72331cc56242830cf5100b69100327aad79a9c44'
+  # hash: https://github.com/talos-systems/talos/releases/download/v1.0.6/sha256sum.txt
+  '1.0.6': '369ebc2c3b558f89f5ea59d39f7ba85079ae6bc8b7bdc0f83da16f51e7306155'
 
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '1.2.2'
