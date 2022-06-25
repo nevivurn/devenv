@@ -1,15 +1,15 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.9'
+devenv_awscli_version: '2.7.11'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.9.zip.sig
-  '2.7.9': 'b5db0741c5f6a8f0900d733ade27237cf6292f8c83275597e1d8647adc36e23a'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.11.zip.sig
+  '2.7.11': '1c3d21401510c5fe85bf6a9598855542145923c8514117fa84ba13920459a1fb'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '390.0.0'
+devenv_gcloud_version: '391.0.0'
 devenv_gcloud_hash:
-  '390.0.0': '5ce31b85013599dd842ca8a08539aaa6047aee63bb216d5b3988fb2666b06c07'
+  '391.0.0': '31a0535a7434350d7e07d3291cf8937bba2ab2806d98507908f3ba87a5d5b2bd'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.18.3'
@@ -59,11 +59,11 @@ devenv_nodejs_hash:
   '16.15.1': 'b749f7a76e56dfd6dfb8a910b8a2a871159661557680aa95acf13c9514422c12'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.8.1'
+devenv_packer_version: '1.8.2'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.8.1/packer_1.8.1_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.8.1/packer_1.8.1_SHA256SUMS.sig
-  '1.8.1': 'ae834c85509669c40b26033e5b2210d5594db3921103e38af1e3f537b58338a3'
+  # hash: https://releases.hashicorp.com/packer/1.8.2/packer_1.8.2_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.8.2/packer_1.8.2_SHA256SUMS.sig
+  '1.8.2': '675bd82561a2e49f89747e092141c7ce79c2e2a9105e6a2ebd49a26df849a468'
 
 # https://github.com/protocolbuffers/protobuf/releases
 devenv_protoc_version: '21.1'
@@ -76,10 +76,10 @@ devenv_restic_hash:
   '0.13.1': 'a7a82eca050224c9cd070fea1d4208fe92358c5942321d6e01eff84a77839fb8'
 
 # https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '1.0.6'
+devenv_talosctl_version: '1.1.0'
 devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v1.0.6/sha256sum.txt
-  '1.0.6': '369ebc2c3b558f89f5ea59d39f7ba85079ae6bc8b7bdc0f83da16f51e7306155'
+  # hash: https://github.com/talos-systems/talos/releases/download/v1.1.0/sha256sum.txt
+  '1.1.0': 'c7827781457b7561da96498d86554a1638b47053764321b7c63bb6f6b7307756'
 
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '1.2.3'
