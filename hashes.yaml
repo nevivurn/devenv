@@ -1,15 +1,15 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.11'
+devenv_awscli_version: '2.7.12'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.11.zip.sig
-  '2.7.11': '1c3d21401510c5fe85bf6a9598855542145923c8514117fa84ba13920459a1fb'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.12.zip.sig
+  '2.7.12': 'b03e475a0889465bda250f620bec7854e19681a6443bad4f2257a11cc9638564'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '391.0.0'
+devenv_gcloud_version: '392.0.0'
 devenv_gcloud_hash:
-  '391.0.0': '31a0535a7434350d7e07d3291cf8937bba2ab2806d98507908f3ba87a5d5b2bd'
+  '392.0.0': 'a7e88856a07ed75cf310ebe5415c922c9b516021a6c7e66b3eb8f2859b9351bc'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.18.3'
@@ -89,7 +89,7 @@ devenv_terraform_hash:
   '1.2.3': '728b6fbcb288ad1b7b6590585410a98d3b7e05efe4601ef776c37e15e9a83a96'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2022.06.22.1'
+devenv_ytdl_version: '2022.06.29'
 devenv_ytdl_hash:
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.06.22.1/SHA2-256SUMS
-  '2022.06.22.1': '28ae7c14e9b5e85708fc292c1e2767c14e9f7c72db71bd629b285a442e9cbe69'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.06.29/SHA2-256SUMS
+  '2022.06.29': 'ddf5ea6b3e2d44dd77320f152e53aaf78063fc7367d648b723cdd210dc08a54a'
