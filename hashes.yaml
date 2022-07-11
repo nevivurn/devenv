@@ -1,10 +1,10 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.12'
+devenv_awscli_version: '2.7.14'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.12.zip.sig
-  '2.7.12': 'b03e475a0889465bda250f620bec7854e19681a6443bad4f2257a11cc9638564'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.14.zip.sig
+  '2.7.14': '14f875cbc86b16e6cb59ccc171169622cb580fe8f6dd5a0df49103390d8bcc0a'
 
 # https://cloud.google.com/sdk/docs/install
 devenv_gcloud_version: '392.0.0'
@@ -53,10 +53,10 @@ devenv_kustomize_hash:
   '4.5.5': 'bba81aa61dba057db1d5abeddf1e522b568b2d906ab67a5c80935e97302c8773'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '16.15.1'
+devenv_nodejs_version: '16.16.0'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v16.15.1/SHASUMS256.txt.asc
-  '16.15.1': 'b749f7a76e56dfd6dfb8a910b8a2a871159661557680aa95acf13c9514422c12'
+  # hash & sig (hash): https://nodejs.org/dist/v16.16.0/SHASUMS256.txt.asc
+  '16.16.0': 'edcb6e9bb049ae365611aa209fc03c4bfc7e0295dbcc5b2f1e710ac70384a8ec'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.8.2'
@@ -82,11 +82,11 @@ devenv_talosctl_hash:
   '1.1.0': 'c7827781457b7561da96498d86554a1638b47053764321b7c63bb6f6b7307756'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.2.3'
+devenv_terraform_version: '1.2.4'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.2.3/terraform_1.2.3_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.2.3/terraform_1.2.3_SHA256SUMS.sig
-  '1.2.3': '728b6fbcb288ad1b7b6590585410a98d3b7e05efe4601ef776c37e15e9a83a96'
+  # hash: https://releases.hashicorp.com/terraform/1.2.4/terraform_1.2.4_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.2.4/terraform_1.2.4_SHA256SUMS.sig
+  '1.2.4': '705ea62a44a0081594dad6b2b093eefefb12d54fa5a20a66562f9e082b00414c'
 
 # https://github.com/yt-dlp/yt-dlp/releases
 devenv_ytdl_version: '2022.06.29'
