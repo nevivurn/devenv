@@ -1,26 +1,26 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.16'
+devenv_awscli_version: '2.7.21'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.16.zip.sig
-  '2.7.16': '00a5e1c917734f0b661fa9933776003bb867665e3185cdf11a1ee24e013d7f63'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.21.zip.sig
+  '2.7.21': 'c11847a99128115a6e87d5906e8470b78ffd2baa0f95781e577d3a1592e8b089'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '393.0.0'
+devenv_gcloud_version: '396.0.0'
 devenv_gcloud_hash:
-  '393.0.0': '6f3aadf553011f9a0478dc1ef029dd71d8ee1b34a6c534653faaca13392a971c'
+  '396.0.0': 'adf5bd0672cfa81999945fbd602fa4d93822caaa7588a295ecf5899ff46fd401'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.18.4'
+devenv_golang_version: '1.19'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.18.4': 'c9b099b68d93f5c5c8a8844a89f8db07eaa58270e3a1e01804f17f4cf8df02f5'
+  '1.19': '464b6b66591f6cf055bc5df90a9750bf5fbc9d038722bb84a9d56a2bea974be6'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.9.1'
+devenv_helm_version: '3.9.2'
 devenv_helm_hash:
-  '3.9.1': '73df7ddd5ab05e96230304bf0e6e31484b1ba136d0fc22679345c0b4bd43f7ac'
+  '3.9.2': '3f5be38068a1829670440ccf00b3b6656fd90d0d9cfd4367539f3b13e4c20531'
 
 # https://github.com/gohugoio/hugo/releases
 devenv_hugo_version: '0.101.0'
@@ -29,10 +29,10 @@ devenv_hugo_hash:
   '0.101.0': '3a22bf2b467b861afa62bd0cd1c0bbd18e2c95cac0e0b61f3c7c8459c2b313eb'
 
 # https://github.com/istio/istio/releases
-devenv_istioctl_version: '1.13.5'
+devenv_istioctl_version: '1.13.7'
 devenv_istioctl_hash:
-  # hash: https://github.com/istio/istio/releases/download/1.13.5/istio-1.13.5-linux-amd64.tar.gz.sha256
-  '1.13.5': 'b240fae66a8f38aaa241d37082edd2f52f3e74fe1fd619ba6a8c342857d1f00d'
+  # hash: https://github.com/istio/istio/releases/download/1.13.7/istio-1.13.7-linux-amd64.tar.gz.sha256
+  '1.13.7': 'fa27e60fbaeb3ed17a308f6c60635f4459c3702c5fda236d395d18c10580b92d'
 
 # https://github.com/kubernetes-sigs/kind/releases
 devenv_kind_version: '0.14.0'
@@ -47,10 +47,10 @@ devenv_kubectl_hash:
   '1.22.12': '8e36c8fa431e454e3368c6174ce3111b7f49c28feebdae6801ab3ca45f02d352'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
-devenv_kustomize_version: '4.5.5'
+devenv_kustomize_version: '4.5.7'
 devenv_kustomize_hash:
-  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.5/checksums.txt
-  '4.5.5': 'bba81aa61dba057db1d5abeddf1e522b568b2d906ab67a5c80935e97302c8773'
+  # https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.7/checksums.txt
+  '4.5.7': '701e3c4bfa14e4c520d481fdf7131f902531bfc002cb5062dcf31263a09c70c9'
 
 # https://nodejs.org/en/download/
 devenv_nodejs_version: '16.16.0'
@@ -59,14 +59,14 @@ devenv_nodejs_hash:
   '16.16.0': 'edcb6e9bb049ae365611aa209fc03c4bfc7e0295dbcc5b2f1e710ac70384a8ec'
 
 # https://www.packer.io/downloads
-devenv_packer_version: '1.8.2'
+devenv_packer_version: '1.8.3'
 devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.8.2/packer_1.8.2_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.8.2/packer_1.8.2_SHA256SUMS.sig
-  '1.8.2': '675bd82561a2e49f89747e092141c7ce79c2e2a9105e6a2ebd49a26df849a468'
+  # hash: https://releases.hashicorp.com/packer/1.8.3/packer_1.8.3_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/packer/1.8.3/packer_1.8.3_SHA256SUMS.sig
+  '1.8.3': '0587f7815ed79589cd9c2b754c82115731c8d0b8fd3b746fe40055d969facba5'
 
 # https://github.com/protocolbuffers/protobuf/releases
-devenv_protoc_version: '21.2'
+devenv_protoc_version: '21.4'
 
 # https://github.com/restic/restic/releases
 devenv_restic_version: '0.13.1'
@@ -76,17 +76,17 @@ devenv_restic_hash:
   '0.13.1': 'a7a82eca050224c9cd070fea1d4208fe92358c5942321d6e01eff84a77839fb8'
 
 # https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '1.1.1'
+devenv_talosctl_version: '1.1.2'
 devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v1.1.1/sha256sum.txt
-  '1.1.1': '9ea1b3647a8f44a1d67631b87d73d879f2eb776d7c7b9dc2eea7631817c0d998'
+  # hash: https://github.com/talos-systems/talos/releases/download/v1.1.2/sha256sum.txt
+  '1.1.2': 'decf7739b5338e4ddbab26d5837207e4fa41bcbd4d39c1ffafd5667253def027'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.2.5'
+devenv_terraform_version: '1.2.6'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.2.5/terraform_1.2.5_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.2.5/terraform_1.2.5_SHA256SUMS.sig
-  '1.2.5': '281344ed7e2b49b3d6af300b1fe310beed8778c56f3563c4d60e5541c0978f1b'
+  # hash: https://releases.hashicorp.com/terraform/1.2.6/terraform_1.2.6_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.2.6/terraform_1.2.6_SHA256SUMS.sig
+  '1.2.6': '9fd445e7a191317dcfc99d012ab632f2cc01f12af14a44dfbaba82e0f9680365'
 
 # https://github.com/yt-dlp/yt-dlp/releases
 devenv_ytdl_version: '2022.07.18'
