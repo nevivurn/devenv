@@ -34,12 +34,6 @@ devenv_istioctl_hash:
   # hash: https://github.com/istio/istio/releases/download/1.13.7/istio-1.13.7-linux-amd64.tar.gz.sha256
   '1.13.7': 'fa27e60fbaeb3ed17a308f6c60635f4459c3702c5fda236d395d18c10580b92d'
 
-# https://github.com/kubernetes-sigs/kind/releases
-devenv_kind_version: '0.14.0'
-devenv_kind_hash:
-  # hash: https://github.com/kubernetes-sigs/kind/releases/download/v0.14.0/kind-linux-amd64.sha256sum
-  '0.14.0': 'af5e8331f2165feab52ec2ae07c427c7b66f4ad044d09f253004a20252524c8b'
-
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
 devenv_kubectl_version: '1.22.13'
 devenv_kubectl_hash:
@@ -58,28 +52,12 @@ devenv_nodejs_hash:
   # hash & sig (hash): https://nodejs.org/dist/v16.17.0/SHASUMS256.txt.asc
   '16.17.0': 'f0867d7a17a4d0df7dbb7df9ac3f9126c2b58f75450647146749ef296b31b49b'
 
-# https://www.packer.io/downloads
-devenv_packer_version: '1.8.3'
-devenv_packer_hash:
-  # hash: https://releases.hashicorp.com/packer/1.8.3/packer_1.8.3_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/packer/1.8.3/packer_1.8.3_SHA256SUMS.sig
-  '1.8.3': '0587f7815ed79589cd9c2b754c82115731c8d0b8fd3b746fe40055d969facba5'
-
-# https://github.com/protocolbuffers/protobuf/releases
-devenv_protoc_version: '21.5'
-
 # https://github.com/restic/restic/releases
 devenv_restic_version: '0.13.1'
 devenv_restic_hash:
   # hash: https://github.com/restic/restic/releases/download/v0.13.1/SHA256SUMS
   # sig (hash): https://github.com/restic/restic/releases/download/v0.13.1/SHA256SUMS.asc
   '0.13.1': 'a7a82eca050224c9cd070fea1d4208fe92358c5942321d6e01eff84a77839fb8'
-
-# https://github.com/talos-systems/talos/releases
-devenv_talosctl_version: '1.1.2'
-devenv_talosctl_hash:
-  # hash: https://github.com/talos-systems/talos/releases/download/v1.1.2/sha256sum.txt
-  '1.1.2': 'decf7739b5338e4ddbab26d5837207e4fa41bcbd4d39c1ffafd5667253def027'
 
 # https://www.terraform.io/downloads.html
 devenv_terraform_version: '1.2.7'
