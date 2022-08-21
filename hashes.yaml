@@ -1,15 +1,15 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.21'
+devenv_awscli_version: '2.7.25'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.21.zip.sig
-  '2.7.21': 'c11847a99128115a6e87d5906e8470b78ffd2baa0f95781e577d3a1592e8b089'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.25.zip.sig
+  '2.7.25': '41e9e00b6708901006b425824e474bfa1f5e1ef5ee0bff4d1b85dfc6f103fbfc'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '397.0.0'
+devenv_gcloud_version: '398.0.0'
 devenv_gcloud_hash:
-  '397.0.0': '4ba8ce1a4bbc1554ff9b1e9d71e01a0b3c1e881d5b8dff62e259939d85b7be43'
+  '398.0.0': 'fbaf22d0d2b2e0b2d08bb8e9ae48baf2ad7531ccda5e30617e545e4c578ef44d'
 
 # https://golang.org/dl/
 devenv_golang_version: '1.19'
@@ -41,10 +41,10 @@ devenv_kind_hash:
   '0.14.0': 'af5e8331f2165feab52ec2ae07c427c7b66f4ad044d09f253004a20252524c8b'
 
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-devenv_kubectl_version: '1.22.12'
+devenv_kubectl_version: '1.22.13'
 devenv_kubectl_hash:
-  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.22.12/bin/linux/amd64/kubectl.sha256
-  '1.22.12': '8e36c8fa431e454e3368c6174ce3111b7f49c28feebdae6801ab3ca45f02d352'
+  # hash: https://storage.googleapis.com/kubernetes-release/release/v1.22.13/bin/linux/amd64/kubectl.sha256
+  '1.22.13': 'b96d2bc9137ec63546a29513c40c5d4f74e9f89aa11edc15e3c2f674d5fa3e02'
 
 # https://github.com/kubernetes-sigs/kustomize/releases
 devenv_kustomize_version: '4.5.7'
@@ -53,10 +53,10 @@ devenv_kustomize_hash:
   '4.5.7': '701e3c4bfa14e4c520d481fdf7131f902531bfc002cb5062dcf31263a09c70c9'
 
 # https://nodejs.org/en/download/
-devenv_nodejs_version: '16.16.0'
+devenv_nodejs_version: '16.17.0'
 devenv_nodejs_hash:
-  # hash & sig (hash): https://nodejs.org/dist/v16.16.0/SHASUMS256.txt.asc
-  '16.16.0': 'edcb6e9bb049ae365611aa209fc03c4bfc7e0295dbcc5b2f1e710ac70384a8ec'
+  # hash & sig (hash): https://nodejs.org/dist/v16.17.0/SHASUMS256.txt.asc
+  '16.17.0': 'f0867d7a17a4d0df7dbb7df9ac3f9126c2b58f75450647146749ef296b31b49b'
 
 # https://www.packer.io/downloads
 devenv_packer_version: '1.8.3'
@@ -89,7 +89,7 @@ devenv_terraform_hash:
   '1.2.7': 'dfd7c44a5b6832d62860a01095a15b53616fb3ea4441ab89542f9364e3fca718'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2022.08.08'
+devenv_ytdl_version: '2022.08.19'
 devenv_ytdl_hash:
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.08.08/SHA2-256SUMS
-  '2022.08.08': '0d92f197c26b4f9db96d6124a69062bc630f04f616231be666b03b465dd5a7e2'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.08.19/SHA2-256SUMS
+  '2022.08.19': 'a062861444f63fce2e70f6a62fa0cc7b19e9066d379033bf9b71ac2fc3969ab6'
