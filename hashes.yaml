@@ -1,32 +1,32 @@
 # TODO: automatically generate this file
 ---
 # https://github.com/aws/aws-cli/tags
-devenv_awscli_version: '2.7.25'
+devenv_awscli_version: '2.7.30'
 devenv_awscli_hash:
-  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.25.zip.sig
-  '2.7.25': '41e9e00b6708901006b425824e474bfa1f5e1ef5ee0bff4d1b85dfc6f103fbfc'
+  # sig: https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.7.30.zip.sig
+  '2.7.30': '9cb6bfb1c0cd793d0e473365579cc14c8264ff9264c9eb54c5d4f4a231236e2e'
 
 # https://cloud.google.com/sdk/docs/install
-devenv_gcloud_version: '398.0.0'
+devenv_gcloud_version: '401.0.0'
 devenv_gcloud_hash:
-  '398.0.0': 'fbaf22d0d2b2e0b2d08bb8e9ae48baf2ad7531ccda5e30617e545e4c578ef44d'
+  '401.0.0': '1f6bf95863bf49df44a1df5bd1915cf6884a132b1e3b3398822c65436b79d3f5'
 
 # https://golang.org/dl/
-devenv_golang_version: '1.19'
+devenv_golang_version: '1.19.1'
 devenv_golang_hash:
   # hash: https://golang.org/dl/
-  '1.19': '464b6b66591f6cf055bc5df90a9750bf5fbc9d038722bb84a9d56a2bea974be6'
+  '1.19.1': 'acc512fbab4f716a8f97a8b3fbaa9ddd39606a28be6c2515ef7c6c6311acffde'
 
 # https://github.com/helm/helm/releases
-devenv_helm_version: '3.9.3'
+devenv_helm_version: '3.9.4'
 devenv_helm_hash:
-  '3.9.3': '2d07360a9d93b18488f1ddb9de818b92ba738acbec6e1c66885a88703fa7b21c'
+  '3.9.4': '31960ff2f76a7379d9bac526ddf889fb79241191f1dbe2a24f7864ddcb3f6560'
 
 # https://github.com/gohugoio/hugo/releases
-devenv_hugo_version: '0.101.0'
+devenv_hugo_version: '0.102.3'
 devenv_hugo_hash:
-  # hash: https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_0.101.0_checksums.txt
-  '0.101.0': '3a22bf2b467b861afa62bd0cd1c0bbd18e2c95cac0e0b61f3c7c8459c2b313eb'
+  # hash: https://github.com/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_checksums.txt
+  '0.102.3': '2c1a88bbfe384150aa2785d26a338ac16a66ea53c61535c0a2402d139a16acfc'
 
 # https://github.com/istio/istio/releases
 devenv_istioctl_version: '1.13.7'
@@ -53,21 +53,21 @@ devenv_nodejs_hash:
   '16.17.0': 'f0867d7a17a4d0df7dbb7df9ac3f9126c2b58f75450647146749ef296b31b49b'
 
 # https://github.com/restic/restic/releases
-devenv_restic_version: '0.13.1'
+devenv_restic_version: '0.14.0'
 devenv_restic_hash:
-  # hash: https://github.com/restic/restic/releases/download/v0.13.1/SHA256SUMS
-  # sig (hash): https://github.com/restic/restic/releases/download/v0.13.1/SHA256SUMS.asc
-  '0.13.1': 'a7a82eca050224c9cd070fea1d4208fe92358c5942321d6e01eff84a77839fb8'
+  # hash: https://github.com/restic/restic/releases/download/v0.14.0/SHA256SUMS
+  # sig (hash): https://github.com/restic/restic/releases/download/v0.14.0/SHA256SUMS.asc
+  '0.14.0': 'c8da7350dc334cd5eaf13b2c9d6e689d51e7377ba1784cc6d65977bd44ee1165'
 
 # https://www.terraform.io/downloads.html
-devenv_terraform_version: '1.2.7'
+devenv_terraform_version: '1.2.9'
 devenv_terraform_hash:
-  # hash: https://releases.hashicorp.com/terraform/1.2.7/terraform_1.2.7_SHA256SUMS
-  # sig (hash): https://releases.hashicorp.com/terraform/1.2.7/terraform_1.2.7_SHA256SUMS.sig
-  '1.2.7': 'dfd7c44a5b6832d62860a01095a15b53616fb3ea4441ab89542f9364e3fca718'
+  # hash: https://releases.hashicorp.com/terraform/1.2.9/terraform_1.2.9_SHA256SUMS
+  # sig (hash): https://releases.hashicorp.com/terraform/1.2.9/terraform_1.2.9_SHA256SUMS.sig
+  '1.2.9': '0e0fc38641addac17103122e1953a9afad764a90e74daf4ff8ceeba4e362f2fb'
 
 # https://github.com/yt-dlp/yt-dlp/releases
-devenv_ytdl_version: '2022.08.19'
+devenv_ytdl_version: '2022.09.01'
 devenv_ytdl_hash:
-  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.08.19/SHA2-256SUMS
-  '2022.08.19': 'a062861444f63fce2e70f6a62fa0cc7b19e9066d379033bf9b71ac2fc3969ab6'
+  ## hash: https://github.com/yt-dlp/yt-dlp/releases/download/2022.09.01/SHA2-256SUMS
+  '2022.09.01': '3db4b47c28f9cab13bfd470ad66a2eb98a82fe42c36a202d001d7cea700af616'
